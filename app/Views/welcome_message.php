@@ -661,9 +661,7 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
     <footer class="footer">
       <div class="box">Legal<br /><a href="http://localhost:8080/home/imprint">Imprint</a><a href="http://localhost:8080/home/toc">Terms & Conditions</a><a href="http://localhost:8080/home/privacy">Privacy policy</a><a href="#">AML/Exchange Policy</a><a href="#">AML/Wallet Policy</a></div>
@@ -677,6 +675,5 @@
       <div class="box">Social Media <br /><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Youtube</a><a href="#">Medium</a><a href="#">Linkedln</a></div>
     </footer>
 </body>
-
 </html>
 <script src="<?php echo base_url('/assets/novascript.js'); ?>"></script>
