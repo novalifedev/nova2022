@@ -13,7 +13,71 @@ html {
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
     padding-left: 20px;
-    position: initial;
+    position: relative;
+    left: 0px;
+}
+
+.menuright {
+    position: absolute;
+    display: inline-block;
+    top: 0%;
+    right: 25%;
+}
+
+.neoninfo {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50%;
+    right: 3rem;
+    top: 0px;
+}
+
+.neoninfo2 {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50%;
+    right: 5rem;
+    top: 0px;
+    margin-right: -30px;
+}
+
+.language {
+    width: 214px;
+    height: 40px;
+    left: 1412px;
+    top: 228px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    background: transparent;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.language option {
+    background-color: rgba(44, 54, 126, 0.85);
+}
+
+.language .select-items {
+    position: absolute;
+    background-color: rgb(236, 232, 11);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
 }
 
 
@@ -28,7 +92,7 @@ html {
     text-align: center;
     border-radius: 6px;
     /* Position the tooltip text - see examples below! */
-    position: absolute;
+    position: relative;
     z-index: 5;
 }
 
@@ -46,6 +110,31 @@ h1.home1 {
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
+.contenthome p {
+    width: 570px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A5AEF1;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.rowhome {
+    display: inline-flex;
+}
+
+.homehr {
+    width: 0px;
+    height: 60px;
+    border: 2px solid #5CD4F0;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
 h2.home1 {
     font-family: Roboto;
     font-style: normal;
@@ -59,6 +148,7 @@ h2.home1 {
 
 .body {
     background-image: url("img/video.png");
+    color: red;
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -66,17 +156,38 @@ h2.home1 {
     background-size: cover;
     min-height: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*  background-attachment: fixed; */
     background-position: center;
     background-size: cover;
 }
 
 .parallax {
+    /* background-image: url("img/video.png"); */
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect 
+    background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #20284D;
+}
+
+.jumbo {
     background-image: url("img/video.png");
     /* Set a specific height */
     min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    width: 100%;
+    /* Create the parallax scrolling effect 
+    background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #20284D;
+}
+
+.videobg {
+    background-image: url("img/video.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,9 +204,9 @@ html {
 
 .loggo {
     position: relative;
-    margin-top: 3px;
+    margin-top: 10px;
     margin-left: 0px;
-    height: 50px;
+    height: 75px;
 }
 
 
@@ -105,12 +216,12 @@ html {
     position: relative;
     position: fixed;
     width: 99%;
-    height: 60px;
+    height: 95px;
     left: 10px;
     top: 0px;
     background: transparent;
     border: 0px solid red;
-    z-index: 10000;
+    z-index: 101;
     transition: all 0.2s ease-in-out;
 }
 
@@ -118,7 +229,7 @@ html {
     position: relative;
     position: fixed;
     width: 99%;
-    height: 60px;
+    height: 95px;
     left: 10px;
     top: 0px;
     background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 0%, rgba(57, 187, 254, 0.5) 100%);
@@ -196,7 +307,7 @@ footer {
 
 .box {
     height: 200px;
-    width: 200px;
+    width: 320px;
     text-align: left;
     padding-left: 20px;
     padding-top: 10px;
@@ -234,7 +345,6 @@ footer {
 .container {
     height: 100%;
     position: relative;
-    border: 3px solid green;
 }
 
 .vertical-center {
@@ -279,20 +389,18 @@ p {
 
 .menuleft {
     /* menu */
-    width: auto;
-    left: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    /* border: 1px solid green;*/
     padding-left: 0;
     padding-right: 0;
     text-align: left;
     position: fixed;
-    left: 10rem;
+    left: 20px;
     display: flex;
     flex-direction: column;
     width: 17rem;
-    line-height: 50%;
+    line-height: 50px;
+    margin: auto;
+    height: 100vh;
+    top: 35%;
 }
 
 a:link {
@@ -694,7 +802,7 @@ body {
 
 .outer {
     border-left: 4px solid #5CD4F0;
-    width: 600px;
+    width: 800px;
 }
 
 
@@ -739,12 +847,13 @@ body {
 .title::before {
     content: "";
     position: absolute;
-    width: 30px;
-    height: 30px;
-    background: white;
+    width: 70px;
+    height: 70px;
+    background: #20284D;
     border-radius: 999px;
-    left: -45px;
+    left: -68px;
     border: 3px solid #5CD4F0;
+    margin-top: -60px;
 }
 
 p {
@@ -753,6 +862,51 @@ p {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
+    color: #B4BDFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.timeline1 {
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    top: -5px;
+    left: -35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #B4BDFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.timeline2 {
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    top: -5px;
+    left: -35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    color: #B4BDFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.timeline3 {
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    top: -5px;
+    left: -35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
     color: #B4BDFF;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
 }
@@ -811,12 +965,13 @@ col-xs-4.flex {
     top: 44px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    filter: drop-shadow(1px 2px 1px rgba(0, 0, 0, 0.25));
     border-radius: 16px;
-    text-align: center;
-    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
     line-height: 32px;
-    font-size: 17px;
+    color: #FFFFFF;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -824,12 +979,14 @@ col-xs-4.flex {
     display: flex;
     width: auto;
     margin-top: 5px;
+    margin: 4% 2rem 0%;
 }
 
 .menuheader img {
     width: 24px;
     height: 24px;
     margin-right: 5px;
+    margin-top: 0;
 }
 
 .textmenuheader {
@@ -945,6 +1102,7 @@ h2 {
     height: 130px;
     border: 1px solid #FFFFFF;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 .nlcc {
@@ -1262,7 +1420,7 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    top: 316px;
+    bottom: 33px;
     left: 115px;
 }
 
@@ -1379,6 +1537,263 @@ ul.nav>li>a:hover {
     background-size: contain;
 }
 
+.register {
+    display: inline-flex;
+}
+
+#checkbox {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    vertical-align: bottom;
+    color: black;
+    background-color: rgba(255, 0, 0, 0.08);
+}
+
+.registera {
+    position: absolute;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    width: 254px;
+    height: 450px;
+    right: 3em;
+    top: 100px;
+    background: #2D72A6;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    visibility: hidden;
+    text-align: center;
+    z-index: 100;
+}
+
+.registera p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.registera input {
+    width: 214px;
+    height: 40px;
+    left: 1412px;
+    top: 228px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    background: transparent;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.registerb {
+    position: absolute;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    width: 254px;
+    height: 400px;
+    right: 30rem;
+    top: 100px;
+    background: #2D72A6;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    visibility: hidden;
+    text-align: center;
+    z-index: 100;
+}
+
+.registerb p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.registerb input {
+    width: 214px;
+    height: 40px;
+    left: 1412px;
+    top: 228px;
+    border: 1px solid rgba(41, 49, 113, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(41, 49, 113, 0.6);
+    background: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.verifybox {
+    position: relative;
+    height: 70px;
+    /* top_gradient */
+    background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 0%, rgba(57, 187, 254, 0.5) 100%);
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.verifybox input {
+    width: 214px;
+    height: 40px;
+    left: 1412px;
+    top: 228px;
+    border: 1px solid rgba(41, 49, 113, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    background: transparent;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.boxemail {
+    width: 98px;
+    height: 24px;
+    border: 1px solid rgba(41, 49, 113, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(41, 49, 113, 0.5);
+}
+
+.boxemail:hover {
+    width: 98px;
+    height: 24px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.boxphone {
+    width: 98px;
+    height: 24px;
+    /* top_gradient */
+    border: 1px solid rgba(41, 49, 113, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(41, 49, 113, 0.5);
+}
+
+.verifybox p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.boxphone:hover {
+    width: 98px;
+    height: 24px;
+    /* top_gradient */
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* Style the active class, and buttons on mouse-over */
+
+.active,
+.boxemail:hover {
+    width: 98px;
+    height: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height 
+    text-align: center;*/
+    color: #FFFFFF;
+}
+
+.rowverify {
+    display: inline-flex;
+}
+
 .logina {
     position: absolute;
     display: block;
@@ -1393,6 +1808,7 @@ ul.nav>li>a:hover {
     border-radius: 8px;
     visibility: hidden;
     text-align: center;
+    z-index: 100;
 }
 
 .logina p {
@@ -1560,11 +1976,27 @@ ul.nav>li>a:hover {
     font-size: 16px;
 }
 
+.button.home {
+    width: 217px;
+    height: 45px;
+    /* button_gradient */
+    background: linear-gradient(92.46deg, #F96EC6 0%, #D532A6 100%);
+    border: 1px solid #9C1167;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.row-btn {
+    display: inline-flex;
+    margin-left: 0px;
+}
+
 .button.positiona {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    bottom: 30px;
+    bottom: 15px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1624,6 +2056,24 @@ ul.nav>li>a:hover {
     margin-top: 20px;
 }
 
+.rowboxverify {
+    margin: auto;
+    position: relative;
+    height: 40px;
+    /* border: black solid 1px; */
+    margin-bottom: 20px;
+}
+
+.rowboxverify input {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+}
+
 .rowboxb {
     margin: auto;
     position: relative;
@@ -1644,6 +2094,40 @@ ul.nav>li>a:hover {
 .rowboxb input {
     display: inline-flex;
     width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.rowboxreg {
+    margin: auto;
+    position: relative;
+    height: 40px;
+    /* border: black solid 1px; */
+    margin-bottom: 10px;
+}
+
+.rowboxregb {
+    margin: auto;
+    position: relative;
+    height: 40px;
+    /* border: black solid 1px; */
+    margin-top: 20px;
+}
+
+.rowboxreg input {
+    display: inline-flex;
+    width: 105px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.rowboxregb input {
+    display: inline-flex;
+    width: 105px;
     height: 40px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -2113,4 +2597,202 @@ ul.nav>li>a:hover {
     line-height: 14px;
     margin-left: 10px;
     margin-top: -10px;
+}
+
+
+/* custom select language */
+
+.custom-select {
+    position: relative;
+    width: 214px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    background: transparent;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.country {
+    position: absolute;
+    width: 35px;
+    height: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* identical to box height */
+    text-align: center;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 50px;
+}
+
+.country2 {
+    position: absolute;
+    height: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    /* identical to box height */
+    text-align: center;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 50px;
+    top: 50px
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: transparent;
+}
+
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    margin-right: 10px;
+}
+
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
+    /*border-color: transparent transparent #fff transparent;
+    top: 7px;*/
+}
+
+
+/*style the items (options), including the selected item:*/
+
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/*style items (options):*/
+
+.select-items {
+    position: absolute;
+    background-color: rgba(44, 54, 126, 0.85);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* end of custom select language */
+
+.fas .fa-home::after {
+    content: " aaaaaa";
+}
+
+.nav-active {
+    width: auto;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+#tabmenu1 {
+    margin-left: 5px;
+}
+
+#tabmenu2 {
+    margin-left: 5px;
+}
+
+#tabmenu3 {
+    margin-left: 5px;
+}
+
+.h3-tab1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.p1-tab1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #B4BDFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+.p2-tab1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: left;
 }

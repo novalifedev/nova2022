@@ -10,15 +10,78 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="<?php echo base_url('/assets/style.css'); ?>">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <style>
 
   </style>
 </head>
 
 <body class="parallax" onload="myFunction()" style="margin:0;" data-spy="scroll" data-target=".hoverbg" data-offset="50">
-  <div id="loader"></div>
+  <div id="loader"></div>  
+  <div class="jumbo"></div>
+  <div class="registera" id="registera">
+    <div class="loginheader">
+      <div class="titlelogin">REGISTER</div>
+      <div class="closelogin" onclick="closboxregistera()">X</div>
+    </div>
+    <div class="country">country</div>
+    <div class="custom-select" style="width:214px;">
+      <select>
+        <option value="0">Select Language :</option>
+        <option value="1">ENGLISH</option>
+        <option value="2">GERMAN</option>
+        <option value="3">CZECH</option>
+        <option value="4">HOLLAND</option>
+        <option value="5">JAPANESE</option>
+        <option value="6">CHINESE</option>
+        <option value="7">SPANISH</option>
+        <option value="8">BAHASA</option>
+      </select>
+    </div>
+    <div class="languagebox"></div>
+    <div class="rowboxreg">
+      <input type="text" name="" id="">
+      <input type="text" name="" id="">
+    </div>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <div class="register"> <input type="checkbox" id="checkbox" class="checkmark" checked="checked">
+      <p style="margin: 0 0 0px;">I have read and agree to the <span class="link"><a href="#"> term of service</a></span></p>
+    </div>
+
+    <button class="button positiona">CONTINUE</button>
+  </div>
+
+  <div class="registerb" id="registerb">
+    <div class="loginheader">
+      <div class="titlelogin">REGISTER</div>
+      <div class="closelogin" onclick="closboxregisterb()">X</div>
+    </div>
+    <div class="verifybox">
+      <p>Verify with,</p>
+      <div class="rowverify" id="rowverify">
+        <div class="boxemail" onclick="changetoemail()">EMAIL</div>
+        <div class="boxemail" onclick="changetype()">PHONE</div>
+      </div>
+    </div>
+    <p style="margin: 0 0 0px;">Please enter the code sent to</p>
+    <input type="text">
+    <p style="margin: 0 0 0px;"><span id="verifytype">Wrong E-mail ?</span> <span class="link"><a href="#">Change</a></span></p>
+    <div class="rowboxverify">
+      <input type="text" name="" id="">
+      <input type="text" name="" id="">
+      <input type="text" name="" id="">
+      <input type="text" name="" id="">
+    </div>
+    <p style="margin: 0 0 0px;">Not received the code ? <span class="link"><a href="#">Resend</a></span></p>
+    <button class="button positiona">CONFIRM</button>
+  </div>
+
   <div class="logina" id="logina">
     <div class="loginheader">
       <div class="titlelogin">LOGIN</div>
@@ -31,8 +94,8 @@
       <input type="text" name="" id="">
       <input type="text" name="" id="">
     </div>
-    <p style="margin: 0 0 0px;">Not received the code ? Resend</p>
-    <p style="margin: 0 0 0px;">Change your E-mail ? Reset</p>
+    <p style="margin: 0 0 0px;">Not received the code ? <span class="link"><a href="#">Resend</a></span></p>
+    <p style="margin: 0 0 0px;">Change your E-mail ? <span class="link"><a href="#">Reset</a></span></p>
     <button class="button positiona">LOGIN NOW</button>
   </div>
   <div class="loginb" id="loginb">
@@ -48,7 +111,7 @@
       <input type="text" name="" id="">
       <input type="text" name="" id="">
     </div>
-    <p style="margin: 0 0 0px;">Lost your 2FA ? Reset</p>
+    <p style="margin: 0 0 0px;">Lost your 2FA ? <span class="link"><a href="#">Reset</a></span></p>
     <button class="button positiona">LOGIN NOW</button>
   </div>
   <div class="loginc" id="loginc">
@@ -63,8 +126,8 @@
       <input type="text" name="" id="">
       <input type="text" name="" id="">
     </div>
-    <p style="margin: 0 0 0px;">Not received the code ? Resend</p>
-    <p style="margin: 0 0 0px;">Change your Number ? Reset</p>
+    <p style="margin: 0 0 0px;">Not received the code ? <span class="link"><a href="#">Resend</a></span></p>
+    <p style="margin: 0 0 0px;">Change your Number ?<span class="link"><a href="#"> Reset</a></span></p>
     <button class="button positiona">LOGIN NOW</button>
   </div>
   <div class="parallax"></div>
@@ -80,41 +143,88 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-left">
-            <li><img class="loggo" src="<?php echo base_url('/assets/img/logowhite.png'); ?>"></li>
+            <li><img class="loggo" src="<?php echo base_url('/assets/img/logo_NovaLife_textStyle_white.png'); ?>"></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">
-                <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/personone.png'); ?>">
-                  <div class="textmenuheader">XXXXXX<span class="neon">Registered</span></div>
+          <ul class="nav navbar-nav navbar-right" style="height: 74px;">
+            <li><a href="#" style="height: 74px;">
+                <div class="neoninfo">
+                  <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/personone.png'); ?>">
+                    <div class="textmenuheader">XXXXXX<span class="neon">Registered</span></div>
+                  </div>
+                  <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/people.png'); ?>">
+                    <div class="textmenuheader">XXXXXX<span class="neon">Online Today</span></div>
+                  </div>
+                  <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/logo_coin_1024x1024.png'); ?>">
+                    <div class="textmenuheader">XXXXXX<span class="neon">NLC-Coin</span></div>
+                  </div>
                 </div>
               </a></li>
-            <li><a href="#">
-                <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/people.png'); ?>">
-                  <div class="textmenuheader">XXXXXX<span class="neon">Online Today</span></div>
+            <li><a href="#" style="height: 74px;">
+                <div class="neoninfo2">
+                  <div class="menuheader">
+                    <div class="custom-select" style="width:114px;border:none;top:-10px;padding-top: 5px;">
+                      <select>
+                        <option value="1">ENGLISH</option>
+                        <option value="2">GERMAN</option>
+                        <option value="3">CZECH</option>
+                        <option value="4">HOLLAND</option>
+                        <option value="5">JAPANESE</option>
+                        <option value="6">CHINESE</option>
+                        <option value="7">SPANISH</option>
+                        <option value="8">BAHASA</option>
+                      </select>
+                    </div>
+                    <div class="country2">country</div>
+                  </div>
+                  <div class="menuheader">
+                    <div id="loginbtn" onclick="showboxlogina()">LOGIN</div>
+                  </div>
+                  <div class="menuheader">
+                    <div id="registerbtn" onclick="showboxregistera()">REGISTER</div>
+                  </div>
                 </div>
               </a></li>
-            <li><a href="#">
-                <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/coin.png'); ?>">
-                  <div class="textmenuheader">XXXXXX<span class="neon">NLC-Coin</span></div>
-                </div>
-              </a></li>
-
-            <li><a href="#">
-                <div id="translate">ENGLISH</div>
-              </a></li>
-            <li><a href="#">
-                <div id="loginbtn" onclick="showboxlogina()">LOGIN</div>
-              </a></li>
-            <li><a href="#">
-                <div id="registerbtn">REGISTER</div>
-              </a></li>
-
           </ul>
 
         </div>
       </div>
     </nav>
-
+    <div class="menuright">
+      <div class="bghome">
+        <span class="tooltiptext">Dec 31, 2025 00:00:00</span>
+        <h2 class="home1">SALES ROUND XX</h2><br /><br />
+        <div class="inputdata">
+          <div class="inputbox"><input type="text" id="days">
+            <p>days</p>
+          </div>
+        </div>
+        <div class="inputdata">
+          <div class="inputbox"><input type="text" id="hours">
+            <p>hours</p>
+          </div>
+        </div>
+        <div class="inputdata">
+          <div class="inputbox"><input type="text" id="minutes">
+            <p>minutes</p>
+          </div>
+        </div>
+        <div class="inputdata">
+          <div class="inputbox"><input type="text" id="second">
+            <p>second</p>
+          </div>
+        </div>
+        <h3 style="margin-top:-10%">Current price $XXX <br />
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          </div><br />
+          <div class="homenote">
+            <div class="minnlcc">XXX NLCC</div>
+            <div class="maxnlcc">XXX NLCC</div>
+          </div>
+        </h3>
+        <div class="buycoin text-center">BUY COIN</div>
+      </div>
+    </div>
     <div class="container-fluid">
       <div class="col-sm-2">
         <div class="menuleft">
@@ -126,50 +236,20 @@
         </div>
       </div>
       <div class="contenthome">
-        <div class="col-lg-5 text-left" style="height: 400px;padding-top:5%;">
-          <h1 class="home1">Lorem ipsum dolor sit amet, consectetur adipiscing elitass</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          <div class="row">
-            <div class="col-lg-4"><img src="<?php echo base_url('assets/img/windows.png'); ?>"></div>
-            <div class="col-lg-4"><img src="<?php echo base_url('assets/img/mac.png'); ?>"></div>
+        <div class="col-lg-5 text-left" style="height: 400px;padding-top:4%;padding-left:5%; width: 600px;">
+          <h1 class="home1">Lorem ipsum dolor sit
+            Consectetur Adipisicing</h1>
+          <div class="rowhome">
+            <div class="homehr"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          </div>
+          <div class="row row-btn">
+            <button class="button home"><span style="font-size: 28px;"><i class="fab fa-windows"></span></i> <span style="vertical-align: super; margin-left:5px;">WINDOWS</span></button>
+            <button class="button home" style="margin-left:1rem"><span style="font-size: 28px;"><i class="fab fa-apple"></i></span> <span style="vertical-align: super; margin-left:5px;">APPLE</span></button>
           </div>
         </div>
         <div class="col-lg-4 text-center">
-          <div class="bghome">
-            <span class="tooltiptext">Dec 31, 2025 00:00:00</span>
-            <h2 class="home1">SALES ROUND XX</h2><br /><br />
-            <i class="fas fa-home"></i>
-            <div class="inputdata">
-              <div class="inputbox"><input type="text" id="days">
-                <p>days</p>
-              </div>
-            </div>
-            <div class="inputdata">
-              <div class="inputbox"><input type="text" id="hours">
-                <p>hours</p>
-              </div>
-            </div>
-            <div class="inputdata">
-              <div class="inputbox"><input type="text" id="minutes">
-                <p>minutes</p>
-              </div>
-            </div>
-            <div class="inputdata">
-              <div class="inputbox"><input type="text" id="second">
-                <p>second</p>
-              </div>
-            </div>
-            <h3 style="margin-top:-10%">Current price $XXX <br />
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div><br />
-              <div class="homenote">
-                <div class="minnlcc">XXX NLCC</div>
-                <div class="maxnlcc">XXX NLCC</div>
-              </div>
-            </h3>
-            <div class="buycoin text-center">BUY COIN</div>
-          </div>
         </div>
       </div>
       <!-- end of div row partner -->
@@ -181,7 +261,6 @@
         <div class="row content">
           <div class="col-sm-9 text-center">
             <h1>Welcome to Novalife</h1>
-            <i class="fas fa-home"></i>
             <hr class="new1">
             <p style="margin-bottom:250px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <nav class="circular-menu" style="margin-top:50px">
@@ -460,7 +539,7 @@
                     <div role="tabpanel" class="tab-pane fade in active" id="profile">
                       <h1 style="text-align: left;">sit amet consectetur
                         adipiscing elit</h1>
-                      <p style="text-align: left;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                      <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                       <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
                     </div>
@@ -675,5 +754,6 @@
       <div class="box">Social Media <br /><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Youtube</a><a href="#">Medium</a><a href="#">Linkedln</a></div>
     </footer>
 </body>
+
 </html>
 <script src="<?php echo base_url('/assets/novascript.js'); ?>"></script>
