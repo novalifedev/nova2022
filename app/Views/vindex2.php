@@ -4,7 +4,7 @@
 <head>
   <title>NOVALIFE</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="shortcut icon" href="<?php echo base_url('/assets/img/coin.png'); ?>" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="<?php echo base_url('/assets/style.css'); ?>">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
-
   </style>
 </head>
 
@@ -24,15 +23,22 @@
     <div class="container-fluid">
       <div class="col-sm-2">
         <div class="menuleft">
-          <div class="hoverbg" id="home2" alt="" height="24px"><i class="fas fa-home" style="margin-right:10px"></i><a href="#section2">| HOME</a></div>
-          <div class="hoverbg" id="home3" alt="" height="24px"><i class="fas fa-wallet" style="margin-right:10px"></i><a href="#section3">| NLCC</a></div>
-          <div class="hoverbg" id="home4" alt="" height="24px"><i class="fas fa-shopping-cart" style="margin-right:10px"></i><a href="#section4">| MARKET</a></div>
+          <div class="hoverbg" id="home2" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">home</span><a href="#section2">| HOME</a></div>
+          <div class="hoverbg" id="home3" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance_wallet</span><a href="#section3">| NLCC</a></div>
+          <div class="hoverbg" id="home4" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">local_grocery_store</span><a href="#section4">| MARKET</a></div>
+          <div class="hoverbg" id="home5" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance</span><a href="#section5">| NC BANK</a></div>
+          <div class="hoverbg" id="home6" alt="" height="24px"><span class="material-icons" style="margin-right:4px;vertical-align: middle;">widgets</span><a href="#section6">| NVO</a></div>
+          <!--  
+          <div class="hoverbg" id="home2" alt="" height="24px"><i class="fas fa-home" style="margin-right:px"></i><a href="#section2">| HOME</a></div>
+          <div class="hoverbg" id="home3" alt="" height="24px"><i class="fas fa-wallet" style="margin-right:11px"></i><a href="#section3">| NLCC</a></div>
+          <div class="hoverbg" id="home4" alt="" height="24px"><i class="fas fa-shopping-cart" style="margin-right:8px"></i><a href="#section4">| MARKET</a></div>
           <div class="hoverbg" id="home5" alt="" height="24px"><i class="fas fa-university" style="margin-right:10px"></i><a href="#section5">| NC BANK</a></div>
-          <div class="hoverbg" id="home6" alt="" height="24px"><i class="far fa-building" style="margin-right:10px"></i><a href="#section5">| NVO</a></div>
+          <div class="hoverbg" id="home6" alt="" height="24px"><span class="material-icons" style="margin-right:4px;vertical-align: middle;">widgets</span><a href="#section6">| NVO</a></div>
+          -->
         </div>
       </div>
       <div class="contenthome">
-        <div class="col-lg-5 text-left" style="height: 400px;padding-top:4%;padding-left:5%; width: 600px;">
+        <div class="col-lg-5 text-left" style="height: 400px;padding-top:4%;padding-left:1%; width: 600px;">
           <h1 class="home1">Lorem ipsum dolor sit
             Consectetur Adipisicing</h1>
           <div class="rowhome">
@@ -56,9 +62,9 @@
       <div id="section2">
         <div class="row content">
           <div class="col-sm-9 text-center">
-            <h1>Welcome to Novalife</h1>
+            <h1>Welcome to NovaLife</h1>
             <hr class="new1">
-            <p style="margin-bottom:250px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p style="margin-bottom:250px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             <nav class="circular-menu" style="margin-top:50px">
               <div class="circle open">
                 <a href="" class="searchEngineLink">
@@ -143,41 +149,60 @@
 
             <h1 style="margin-top:250px;">How to Play Novalife</h1>
             <hr class="new1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p margin-timezone_open="" style="margin-top: 30px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
 
             <div class="timeline ">
               <div class="outer">
                 <div class="card">
                   <div class="info">
-                    <h3 class="title">Lorem Ipsum</h3><p class="timeline1">1</p>
-                    <div class="row" style="margin-top: -70px;margin-left: -15px">
+                    <h3 class="title"><span style="margin-top: 100px;margin-left: 12px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
+                    <p class="timeline1">1</p>
+                    <div class="row" style="margin-top: -60px;margin-left: -2px;height:309px;">
                       <div class="col-sm-8">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
                       </div>
-                      <div class="col-sm-4"><iframe width="250px" height="100%" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-sm-4"><iframe style="margin-top: 100px;margin-left: 40px;position: relative;top: -130px;" width="549px" height="309px" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="info">
-                    <h3 class="title">Lorem Ipsum</h3><p class="timeline2">2</p>
-                    <div class="row">
+                    <h3 class="title"><span style="margin-top: 100px;margin-left: 12px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
+                    <p class="timeline2">2</p>
+                    <div class="row" style="margin-top: -60px;margin-left: -2px;height:309px;">
                       <div class="col-sm-8">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
                       </div>
-                      <div class="col-sm-4"><iframe width="250px" height="100%" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-sm-4"><iframe style="margin-top: 100px;margin-left: 40px;position: relative;top: -130px;" width="549px" height="309px" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="info">
-                    <h3 class="title">Lorem Ipsum</h3><p class="timeline2">3</p>
-                    <div class="row">
+                    <h3 class="title"><span style="margin-top: 100px;margin-left: 12px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
+                    <p class="timeline2">3</p>
+                    <div class="row" style="margin-top: -60px;margin-left: -2px;height:309px;">
                       <div class="col-sm-8">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
+                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt</p><br />
                       </div>
-                      <div class="col-sm-4"><iframe width="250px" height="100%" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-sm-4"><iframe style="margin-top: 100px;margin-left: 40px;position: relative;top: -130px;" width="549px" height="309px" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                   </div>
                 </div>
@@ -185,7 +210,8 @@
             </div>
             <h1>Our Partner</h1>
             <hr class="new1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p style="margin-top: 30px;margin-bottom: 120px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
             <div class="row">
               <div class="col-xs-4" style="display:flex;justify-content:center">
@@ -198,6 +224,7 @@
                 <div class="partner"></div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -215,9 +242,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="row nlcc">
               <div class="col-md-4 nlccbox"><img src="<?php echo base_url('/assets/img/equalizer_white_48dp.svg'); ?>" style="width: 71px;
-  height: 71px;
-  margin-bottom: 20px;
-  margin-top: 20px;">
+                height: 71px;
+                margin-bottom: 20px;
+                margin-top: 20px;">
                 <div class="nlccfont">CURRENT SUPPLY</div>
                 <div class="nlccfontlg">XX.XXX.XXX.XX</div>
               </div>
@@ -517,6 +544,156 @@
           </div>
         </div>
       </div>
+
+      <!-- start section 6 -->
+      <div id="section6">
+        <div class="row content">
+          <div class="col-sm-9 text-center">
+            <h1>Nova Virtual Office</h1>
+            <hr class="new1">
+            <p class="p-nvo-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+
+            <div class="novacircle">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="">
+                    <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h1>Virtual Office for Teamwork</h1>
+            <hr class="new1">
+            <p class="p-nvo-1">A revolutionary collaborative experience for remote work</p>
+            <p class="p-nvo-2">We do our best work as part of a team. NVO allows you to create, discuss, and share your work
+              with colleagues. Take your team collaboration to the next level.</p>
+
+            <div class="novacircle" style="display:inline-flex">
+              <div class="row boxm">
+                <div class="boxcircle"><img src="<?php echo base_url('assets/img/homey.png'); ?>">
+                  <h3>Receive</h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipiscing elit</p>
+                </div>
+                <div class="boxcircle"><img src="<?php echo base_url('assets/img/store.png'); ?>">
+                  <h3>Send</h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipiscing elit</p>
+                </div>
+                <div class="boxcircle"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
+                  <h3>Exchange</h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipiscing elit</p>
+                </div>
+                <div class="boxcircle"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
+                  <h3>Spend</h3>
+                  <p>Lorem ipsum dolor sit amet
+                    consectetur adipiscing elit</p>
+                </div>
+              </div>
+            </div>
+            <div class="market">
+              <div class="row">
+                <div class="col-sm-6 marketa">
+                  <div class="">
+                    <h2>Store your Crypto and <br />
+                      Fiat in one place</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <ul role="list">
+                      <div style="height:100px;width: 400px;margin-left: 135px;">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      </div>
+
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 marketb">
+                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="market">
+              <div class="row" style="margin-top: -40px;">
+                <div class="col-sm-6 marketa">
+                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
+                </div>
+                <div class="col-sm-6 marketb">
+                  <div class="">
+                    <h2 style="text-align:left">Exchange your assets <br />
+                      at anytime</h2>
+                    <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <ul role="list">
+                      <div style="height:100px;width: 400px;margin-left: -5px;">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="market">
+              <div class="row" style="margin-top: -40px;">
+                <div class="col-sm-6 marketa">
+                  <div class="">
+                    <h2>Get returns on your <br />
+                      NLC-Coins</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <ul role="list">
+                      <div style="height:100px;width: 400px;margin-left: 135px;">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 marketb">
+                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="market">
+              <div class="row">
+                <div class="col-sm-6 marketa">
+                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
+                </div>
+                <div class="col-sm-6 marketb">
+
+                  <div class="">
+                    <h2 style="text-align:left">Manage and keep <br />
+                      your NLC-NFT’s</h2>
+                    <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <ul role="list">
+                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      <li>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      </li>
+                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of section 6 -->
     </div>
     <div class="menuright">
       <div class="bghome">
@@ -692,14 +869,18 @@
           <ul class="nav navbar-nav navbar-right" style="height: 74px;">
             <li><a href="#" style="height: 74px;">
                 <div class="neoninfo">
-                  <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/personone.png'); ?>">
-                    <div class="textmenuheader">XXXXXX<span class="neon">Registered</span></div>
+                  <div class="menuheader"><span class="material-icons" style="color:white;">
+                      person
+                    </span>
+                    <div class="textmenuheader">1.000.000<span class="neon">Registered</span></div>
                   </div>
-                  <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/people.png'); ?>">
-                    <div class="textmenuheader">XXXXXX<span class="neon">Online Today</span></div>
+                  <div class="menuheader"><span class="material-icons" style="color:white;">
+                      people
+                    </span>
+                    <div class="textmenuheader">1.000.000<span class="neon">Online Today</span></div>
                   </div>
                   <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/logo_coin_1024x1024.png'); ?>">
-                    <div class="textmenuheader">XXXXXX<span class="neon">NLC-Coin</span></div>
+                    <div class="textmenuheader">1.000.000<span class="neon">NLC-Coin</span></div>
                   </div>
                 </div>
               </a></li>

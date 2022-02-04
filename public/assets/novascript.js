@@ -1,8 +1,3 @@
-$(document).ready(function() {
-    $('.js-example-basic-single').select2();
-});
-
-
 var x, i, j, l, ll, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
 x = document.getElementsByClassName("custom-select");
@@ -203,6 +198,8 @@ $(window).on("scroll", function() {
         document.getElementById("home3").classList.remove("active");
         document.getElementById("home4").classList.remove("active");
         document.getElementById("home5").classList.remove("active");
+        document.getElementById("home6").classList.remove("active");
+        console.log("Halaman 2");
         //$(".hoverbg").addClass("active");
     } else if ($(window).scrollTop() > 3200 && $(window).scrollTop() < 3800) {
         //remove the background property so it comes transparent again (defined in your css)
@@ -211,20 +208,35 @@ $(window).on("scroll", function() {
         document.getElementById("home3").classList.add("active");
         document.getElementById("home4").classList.remove("active");
         document.getElementById("home5").classList.remove("active");
-    } else if ($(window).scrollTop() > 4500 && $(window).scrollTop() < 6800) {
+        document.getElementById("home6").classList.remove("active");
+        console.log("Halaman 3");
+    } else if ($(window).scrollTop() > 3800 && $(window).scrollTop() < 6800) {
         //remove the background property so it comes transparent again (defined in your css)
         //$(".hoverbg").removeClass("active");
         document.getElementById("home2").classList.remove("active");
         document.getElementById("home3").classList.remove("active");
         document.getElementById("home4").classList.add("active");
         document.getElementById("home5").classList.remove("active");
-    } else if ($(window).scrollTop() > 6800 && $(window).scrollTop() < 7800) {
+        document.getElementById("home6").classList.remove("active");
+        console.log("Halaman 4");
+    } else if ($(window).scrollTop() > 6800 && $(window).scrollTop() < 10000) {
         //remove the background property so it comes transparent again (defined in your css)
         //$(".hoverbg").removeClass("active");
         document.getElementById("home2").classList.remove("active");
         document.getElementById("home3").classList.remove("active");
         document.getElementById("home4").classList.remove("active");
         document.getElementById("home5").classList.add("active");
+        document.getElementById("home6").classList.remove("active");
+        console.log("Halaman 5");
+    } else if ($(window).scrollTop() > 10000 && $(window).scrollTop() < 15000) {
+        //remove the background property so it comes transparent again (defined in your css)
+        //$(".hoverbg").removeClass("active");
+        document.getElementById("home2").classList.remove("active");
+        document.getElementById("home3").classList.remove("active");
+        document.getElementById("home4").classList.remove("active");
+        document.getElementById("home5").classList.remove("active");
+        document.getElementById("home6").classList.add("active");
+        console.log("Halaman 6");
     }
 });
 
@@ -286,45 +298,37 @@ function backed(x) {
 }
 
 function ncin(x) {
-    document.getElementById("ncbank").src = "/assets/img/account_balance.png";
     document.getElementById("home5").classList.add("active");
 }
 
 function ncout(x) {
-    document.getElementById("ncbank").src = "/assets/img/account_balance2.png";
     document.getElementById("home5").classList.remove("active");
 }
 
 function marketin(x) {
-    document.getElementById("market").src = "/assets/img/local_grocery_store2.png";
     document.getElementById("home4").classList.add("active");
 }
 
 function marketout(x) {
-    document.getElementById("market").src = "/assets/img/local_grocery_store.png";
     document.getElementById("home4").classList.remove("active");
 }
 
 function nlccin(x) {
-    document.getElementById("nlcc").src = "/assets/img/account_balance_wallet2.png";
     document.getElementById("home3").classList.add("active");
     console.log('nlccin');
 }
 
 function nlccout(x) {
-    document.getElementById("nlcc").src = "/assets/img/account_balance_wallet.png";
     document.getElementById("home3").classList.remove("active");
     console.log('nlccout');
 }
 
 function homein(x) {
-    document.getElementById("homeicon").src = "/assets/img/home.png";
     document.getElementById("home2").classList.add("active");
     console.log('homein');
 }
 
 function homeout(x) {
-    document.getElementById("homeicon").src = "/assets/img/home2.png";
     document.getElementById("home2").classList.remove("active");
     console.log('homeout');
 }
