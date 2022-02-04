@@ -147,7 +147,7 @@
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
             </nav>
 
-            <h1 style="margin-top:250px;">How to Play Novalife</h1>
+            <h1 style="margin-top:250px;">How to Play NovaLife</h1>
             <hr class="new1">
             <p margin-timezone_open="" style="margin-top: 30px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
@@ -157,72 +157,85 @@
               <div class="outer">
                 <div class="card">
                   <div class="info">
-                    <h3 class="title"><span style="margin-top: 100px;margin-left: 12px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
+                    <h3 class="title"><span style="margin-top: 100px;margin-left: 38px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
                     <p class="timeline1">1</p>
                     <div class="row" style="margin-top: -60px;margin-left: -2px;height:309px;">
                       <div class="col-sm-8">
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
                       </div>
-                      <div class="col-sm-4"><iframe style="margin-top: 100px;margin-left: 40px;position: relative;top: -130px;" width="549px" height="309px" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-sm-4">
+                        <div class="videoright"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="info">
-                    <h3 class="title"><span style="margin-top: 100px;margin-left: 12px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
+                    <h3 class="title"><span style="margin-top: 100px;margin-left: 38px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
                     <p class="timeline2">2</p>
                     <div class="row" style="margin-top: -60px;margin-left: -2px;height:309px;">
                       <div class="col-sm-8">
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
                       </div>
-                      <div class="col-sm-4"><iframe style="margin-top: 100px;margin-left: 40px;position: relative;top: -130px;" width="549px" height="309px" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-sm-4">
+                        <div class="videoright"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="info">
-                    <h3 class="title"><span style="margin-top: 100px;margin-left: 12px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
+                    <h3 class="title"><span style="margin-top: 100px;margin-left: 38px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
                     <p class="timeline2">3</p>
                     <div class="row" style="margin-top: -60px;margin-left: -2px;height:309px;">
                       <div class="col-sm-8">
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
-                        <p style="width:320px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p style="width:320px; margin-left: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                           eiusmod tempor incididunt</p><br />
                       </div>
-                      <div class="col-sm-4"><iframe style="margin-top: 100px;margin-left: 40px;position: relative;top: -130px;" width="549px" height="309px" src="https://www.youtube.com/embed/CNbmVEEW-mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-sm-4">
+                        <div class="videoright"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <h1>Our Partner</h1>
-            <hr class="new1">
-            <p style="margin-top: 30px;margin-bottom: 120px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            <h1 style="margin-top: 345px;">Our Partner</h1>
+            <hr class="new2">
+            <p style="margin-top: 30px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br />
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
-            <div class="row">
-              <div class="col-xs-4" style="display:flex;justify-content:center">
-                <div class="partner"></div>
+            <div class="row" style="position: relative;margin: auto;padding-left: 220px;padding-right: 220px;margin-top: 100px;display:flex">
+              <div class="partner" style="margin-left:40px;margin-right:40px;">
+                <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
               </div>
-              <div class="col-xs-4" style="display:flex;justify-content:center">
-                <div class="partner"></div>
-              </div>
-              <div class="col-xs-4" style="display:flex;justify-content:center">
-                <div class="partner"></div>
-              </div>
+              <div class="partner" style="margin-right:40px"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+              <div class="partner"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+            </div>
+            <div class="row" style="position: relative;display:flex;justify-content: center;margin-top: 100px;">
+              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+              <div class="partner2"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+            </div>
+            <div class="row" style="position: relative;margin: auto;display: inline-flex;margin-top: 100px;">
+
             </div>
 
           </div>

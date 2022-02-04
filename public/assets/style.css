@@ -244,7 +244,8 @@ html {
     height: 95px;
     left: 10px;
     top: 10px;
-    background: linear-gradient(90deg, rgba(46, 56, 128, 0.75) 0%, rgba(57, 187, 254, 0.75) 100%);
+    /* background: linear-gradient(90deg, rgba(46, 56, 128, 0.75) 0%, rgba(57, 187, 254, 0.75) 100%); */
+    background: linear-gradient(90deg, #2E3880 0%, #2D72A6 100%);
     box-shadow: 6px 7px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     z-index: 99;
@@ -816,6 +817,9 @@ body {
 .outer {
     border-left: 4px solid #5CD4F0;
     width: 800px;
+    margin-left: -64px;
+    /* remove last line from 800 tp 700 add height element */
+    height: 700px;
 }
 
 
@@ -860,11 +864,11 @@ body {
 .title::before {
     content: "";
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background: #20284D;
     border-radius: 999px;
-    left: -68px;
+    left: -83px;
     border: 3px solid #5CD4F0;
     margin-top: -60px;
 }
@@ -883,12 +887,12 @@ p {
     position: absolute;
     display: block;
     font-size: 50px;
-    top: -5px;
-    left: -35px;
+    top: 10px;
+    left: -43px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 65px;
     text-align: center;
     color: #B4BDFF;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
@@ -898,12 +902,12 @@ p {
     position: absolute;
     display: block;
     font-size: 50px;
-    top: -5px;
-    left: -35px;
+    top: 10px;
+    left: -43px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 65px;
     text-align: center;
     color: #B4BDFF;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
@@ -964,6 +968,43 @@ hr.new1 {
     box-sizing: border-box;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
+    text-align: center;
+    display: block;
+}
+
+.material-icons.md-60 {
+    margin-top: 55px;
+    font-size: 60px;
+    color: #18E3EC;
+}
+
+.material-icons.md-50 {
+    margin-top: 35px;
+    font-size: 60px;
+    color: #17EBB1
+}
+
+.partner-h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.partner2 {
+    width: 120px;
+    height: 151.53px;
+    background: #FFFFFF;
+    border: 1px solid #684DD8;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: block;
 }
 
 col-xs-4.flex {
@@ -972,10 +1013,10 @@ col-xs-4.flex {
 }
 
 #registerbtn {
+    position: relative;
     width: 131px;
     height: 32px;
-    left: 1769px;
-    top: 44px;
+    top: -4px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 16px;
@@ -1027,14 +1068,14 @@ col-xs-4.flex {
     color: #5CD4F0;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
     /* text for 1 milion */
-    margin-left: 6px;
+    margin-left: 5px;
 }
 
 #loginbtn {
+    position: relative;
     width: 52px;
     height: 32px;
-    left: 1697px;
-    top: 49px;
+    top: -3px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -2690,7 +2731,7 @@ ul.nav>li>a:hover {
     text-align: center;
     color: #5CD4F0;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
-    margin-left: 50px;
+    margin-left: 47px;
     top: 50px
 }
 
@@ -2727,6 +2768,7 @@ ul.nav>li>a:hover {
     height: 10px;
     border: solid white;
     border-width: 0px 2px 2px 0px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
     margin-right: 10px;
     -webkit-transform: rotate(45deg);
 }
@@ -2884,3 +2926,40 @@ ul.nav>li>a:hover {
 
 
 /* END NVO */
+
+.videoright {
+    position: absolute;
+    width: 549px;
+    height: 309px;
+    background: #FFFFFF;
+    border: 1px solid #684DD8;
+    box-sizing: border-box;
+    margin-left: 55px;
+    margin-top: -40px;
+}
+
+hr.new2 {
+    width: 200px;
+    display: -webkit-inline-box;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #E874BF, #A462C3);
+    height: 3px;
+    margin-top: -10px;
+}
+
+.arrowslideleft {
+    color: #5CD4F0;
+    vertical-align: middle;
+    position: relative;
+    margin: auto;
+    width: 64px;
+    font-size: 64px;
+}
+
+.partner-arrow {
+    height: 30px;
+    display: inline;
+    position: relative;
+    top: 60px;
+}
