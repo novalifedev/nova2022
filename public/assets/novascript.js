@@ -201,7 +201,7 @@ $(window).on("scroll", function() {
         document.getElementById("home6").classList.remove("active");
         console.log("Halaman 2");
         //$(".hoverbg").addClass("active");
-    } else if ($(window).scrollTop() > 3200 && $(window).scrollTop() < 3800) {
+    } else if ($(window).scrollTop() > 3200 && $(window).scrollTop() < 6000) {
         //remove the background property so it comes transparent again (defined in your css)
         //$(".hoverbg").removeClass("active");
         document.getElementById("home2").classList.remove("active");
@@ -210,7 +210,7 @@ $(window).on("scroll", function() {
         document.getElementById("home5").classList.remove("active");
         document.getElementById("home6").classList.remove("active");
         console.log("Halaman 3");
-    } else if ($(window).scrollTop() > 3800 && $(window).scrollTop() < 6800) {
+    } else if ($(window).scrollTop() > 6000 && $(window).scrollTop() < 8000) {
         //remove the background property so it comes transparent again (defined in your css)
         //$(".hoverbg").removeClass("active");
         document.getElementById("home2").classList.remove("active");
@@ -219,7 +219,7 @@ $(window).on("scroll", function() {
         document.getElementById("home5").classList.remove("active");
         document.getElementById("home6").classList.remove("active");
         console.log("Halaman 4");
-    } else if ($(window).scrollTop() > 6800 && $(window).scrollTop() < 10000) {
+    } else if ($(window).scrollTop() > 8000 && $(window).scrollTop() < 10000) {
         //remove the background property so it comes transparent again (defined in your css)
         //$(".hoverbg").removeClass("active");
         document.getElementById("home2").classList.remove("active");

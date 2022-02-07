@@ -415,6 +415,8 @@ p {
     margin: auto;
     height: 100vh;
     top: 35%;
+    z-index: 15;
+    /* set index low 15 */
 }
 
 a:link {
@@ -1173,7 +1175,7 @@ h2 {
 .nlcc2 {
     display: inline-flex;
     height: 140px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .nlcc img {
@@ -1223,19 +1225,23 @@ h2 {
 
 .nlccsupply {
     background-color: #2E3880;
-    height: 180px;
-    width: 100%;
+    height: 256px;
+    width: 175%;
     display: block;
     text-align: center;
     justify-content: center;
     margin-bottom: 100px;
+    /* set fit width */
+    position: relative;
+    left: -410px;
+    margin-top: -30px;
 }
 
 .nlccfontbig {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 100px;
+    font-size: 144px;
     /* identical to box height */
     text-align: center;
     color: #FFFFFF;
@@ -1255,7 +1261,7 @@ h2 {
 }
 
 #section2 {
-    height: 2600px;
+    height: 3200px;
     margin-left: 400px;
 }
 
@@ -2583,6 +2589,95 @@ ul.nav>li>a:hover {
     margin-top: -10px;
 }
 
+.chaincoin {
+    height: 600px;
+    position: relative;
+    width: 1284px;
+    left: -100px;
+}
+
+.chaincoin .content {
+    display: block;
+    text-align: left;
+}
+
+.chaincoin .content h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.chaincoin .content p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.chaincoin .background {
+    height: 350px;
+    width: 512px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.chaincoin .topleft {
+    position: absolute;
+    width: 384px;
+    height: 204px;
+    background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 19.79%, rgba(57, 187, 254, 0.5) 78.65%);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    top: 40px;
+}
+
+.chaincoin .bottomleft {
+    position: absolute;
+    width: 384px;
+    height: 204px;
+    bottom: 40px;
+    left: 0;
+    background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 19.79%, rgba(57, 187, 254, 0.5) 78.65%);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.chaincoin .bottomright {
+    position: absolute;
+    width: 384px;
+    height: 204px;
+    bottom: 40px;
+    right: 0;
+    background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 19.79%, rgba(57, 187, 254, 0.5) 78.65%);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.chaincoin .topright {
+    position: absolute;
+    width: 384px;
+    height: 204px;
+    top: 40px;
+    right: 0;
+    background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 19.79%, rgba(57, 187, 254, 0.5) 78.65%);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
 .popupinvest {
     position: absolute;
     display: inline-block;
@@ -2948,6 +3043,16 @@ hr.new2 {
     margin-top: -10px;
 }
 
+hr.nlccdetails {
+    width: 280px;
+    display: -webkit-inline-box;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #E874BF, #A462C3);
+    height: 3px;
+    margin-top: -10px;
+}
+
 .arrowslideleft {
     color: #5CD4F0;
     vertical-align: middle;
@@ -2962,4 +3067,236 @@ hr.new2 {
     display: inline;
     position: relative;
     top: 60px;
+}
+
+.p-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.product-slider-heading {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    margin: 0px
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.p-img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.p-img a,
+.p-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.p-img a img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    animation: fae 0.6s;
+}
+
+.p-img-back {
+    display: none;
+}
+
+.p-img-container:hover .p-img-back {
+    display: block;
+}
+
+.p-img-container:hover .p-img-front {
+    display: none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.initial {
+    position: relative;
+    width: 1080px;
+    height: 310px;
+}
+
+.roundone {
+    height: 170px;
+    width: 270px;
+    border-left: 1px solid white;
+    z-index: 16;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+.roundtwo {
+    height: 170px;
+    width: 270px;
+    border-left: 1px solid white;
+    z-index: 16;
+    position: absolute;
+    bottom: 40px;
+    left: 380px;
+}
+
+.roundfour {
+    height: 170px;
+    width: 270px;
+    border-left: 1px solid white;
+    z-index: 16;
+    position: absolute;
+    bottom: 40px;
+    left: 1040px;
+}
+
+.roundthree {
+    height: 170px;
+    width: 270px;
+    border-left: 1px solid white;
+    z-index: 16;
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+
+.roundone h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    margin-top: -1px;
+}
+
+.roundone p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.roundtwo h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.roundtwo p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.roundfour h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.roundfour p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.roundthree h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    margin-top: -1px;
+}
+
+.roundthree p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.rowbar {
+    position: relative;
+    width: 1080px;
+    height: 60px;
+    top: 105px;
+    background: linear-gradient(90deg, #C35BE3 0%, #38EDB9 100%);
+    border-radius: 30px;
+}
+
+.pmaxsupply {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #5CD4F0;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
 }

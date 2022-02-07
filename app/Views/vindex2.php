@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="<?php echo base_url('/assets/style.css'); ?>">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <style>
+
   </style>
 </head>
 
@@ -23,11 +25,21 @@
     <div class="container-fluid">
       <div class="col-sm-2">
         <div class="menuleft">
-          <div class="hoverbg" id="home2" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">home</span><a href="#section2">| HOME</a></div>
-          <div class="hoverbg" id="home3" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance_wallet</span><a href="#section3">| NLCC</a></div>
-          <div class="hoverbg" id="home4" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">local_grocery_store</span><a href="#section4">| MARKET</a></div>
-          <div class="hoverbg" id="home5" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance</span><a href="#section5">| NC BANK</a></div>
-          <div class="hoverbg" id="home6" alt="" height="24px"><span class="material-icons" style="margin-right:4px;vertical-align: middle;">widgets</span><a href="#section6">| NVO</a></div>
+          <a href="#section2">
+            <div class="hoverbg" id="home2" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">home</span>| HOME</div>
+          </a>
+          <a href="#section3">
+            <div class="hoverbg" id="home3" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance_wallet</span>| NLCC</div>
+          </a>
+          <a href="#section4">
+            <div class="hoverbg" id="home4" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">local_grocery_store</span>| MARKET</div>
+          </a>
+          <a href="#section5">
+            <div class="hoverbg" id="home5" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance</span>| NC BANK</div>
+          </a>
+          <a href="#section6">
+            <div class="hoverbg" id="home6" alt="" height="24px"><span class="material-icons" style="margin-right:4px;vertical-align: middle;">widgets</span>| NVO</div>
+          </a>
           <!--  
           <div class="hoverbg" id="home2" alt="" height="24px"><i class="fas fa-home" style="margin-right:px"></i><a href="#section2">| HOME</a></div>
           <div class="hoverbg" id="home3" alt="" height="24px"><i class="fas fa-wallet" style="margin-right:11px"></i><a href="#section3">| NLCC</a></div>
@@ -235,7 +247,17 @@
               <div class="partner2"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
             </div>
             <div class="row" style="position: relative;margin: auto;display: inline-flex;margin-top: 100px;">
-
+              <div class="p-slider">
+                <h3 class="product-slider-heading">PARTNER</h3>
+                <div class="product-box">
+                  <div class="p-img">
+                    <a href="#">
+                      <img class="p-img-front" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="Front">
+                      <img class="p-img-back" src="<?php echo base_url('/assets/img/core.png'); ?>" alt="Back">
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -247,12 +269,40 @@
             <h1>NovaLive Chain-Coin</h1>
             <hr class="new1">
             <br /><br /><br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-            <img src="<?php echo base_url('assets/img/core.png'); ?>" class="img-fluid" alt="Responsive image" style="height:25em;margin-top:40px;margin-bottom:100px">
+
+            <div class="chaincoin"><img src="<?php echo base_url('assets/img/core2.png'); ?>" class="img-fluid background" alt="Responsive image">
+              <div class="topleft">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+              <div class="bottomleft">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+              <div class="bottomright">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+              <div class="topright">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+
+            </div>
             <h1>NLC-Coin Details</h1>
-            <hr class="new1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <hr class="nlccdetails">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             <div class="row nlcc">
               <div class="col-md-4 nlccbox"><img src="<?php echo base_url('/assets/img/equalizer_white_48dp.svg'); ?>" style="width: 71px;
                 height: 71px;
@@ -275,8 +325,39 @@
             </div>
             <h1>Initial Game Offering</h1>
             <hr class="new1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-            <img class="img-fluid" src="<?php echo base_url('/assets/img/nlccstat.png'); ?>" height="150px" width="800px" style="margin-top:80px">
+            <p style="margin-top:20px;margin-bottom: 90px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+            <!-- replace with shape -->
+            <!-- <img class="img-fluid" src="<?php echo base_url('/assets/img/nlccstat.png'); ?>" height="150px" width="800px" style="margin-top:80px">  -->
+            <div class="initial">
+              <div class="rowbar"></div>
+              <div class="roundone">
+                <h3>Sales Round 1</h3>
+                <p>0.20$ per NLC-Coin<br />
+                  15.000.000 NLC-Coins<br />
+                  3.000.000 USD</p>
+              </div>
+              <div class="roundthree">
+                <h3>Sales Round 3</h3>
+                <p>0.50$ per NLC-Coin<br />
+                74.000.000 NLC-Coins<br />
+                37.000.000 USD</p>
+              </div>
+
+              <div class="roundtwo">
+                <h3>Sales Round 2</h3>
+                <p>0.25$ per NLC-Coin<br />
+                40.000.000 NLC-Coins<br />
+                10.000.000 USD</p>
+              </div>
+
+              <div class="roundfour">
+                <h3>Sales Round 4</h3>
+                <p>0.75$ per NLC-Coin<br />
+                66.666.666 NLC-Coins<br />
+                50.000.000 USD</p>
+              </div>
+            </div>
+
             <br /> <br />
             <div class="row nlcc2">
               <div class="col-md-3 nlccbox2">
@@ -297,7 +378,7 @@
               </div>
 
             </div>
-            <div class="nlccsupply nlccfontbig">1.000.000.000<p>MAXIMUM COIN SUPPLY | NLC-COINS</p>
+            <div class="nlccsupply nlccfontbig">1.000.000.000<p class="pmaxsupply">MAXIMUM COIN SUPPLY | NLC-COINS</p>
             </div>
           </div>
         </div>
@@ -343,7 +424,7 @@
                 <div class="col-sm-6 marketc">
                   <div class="container">
                     <ul class="nav nav-tabs" style="width: 500px;">
-                      <li class="nav-active"><a data-toggle="tab" href="#home"><i class="fas fa-puzzle-piece"><span id="tabmenu1"></i>Plot</span></a></li>
+                      <li class="nav-active active"><a data-toggle="tab" href="#home"><i class="fas fa-puzzle-piece"><span id="tabmenu1"></i>Plot</span></a></li>
                       <li class="nav-active"><a data-toggle="tab" href="#menu1"><i class="fas fa-home"></i><span id="tabmenu2">Flats & Houses</span></a></li>
                       <li class="nav-active"><a data-toggle="tab" href="#menu2"><i class="fas fa-car"></i><span id="tabmenu3">Cars</span></a></li>
                     </ul>
@@ -923,7 +1004,6 @@
                 </div>
               </a></li>
           </ul>
-
         </div>
       </div>
     </nav>
