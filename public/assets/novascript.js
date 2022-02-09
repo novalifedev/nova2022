@@ -1,3 +1,18 @@
+$(document).ready(function() {
+    $("#crossRotate").click(function() {
+        document.getElementById('rotation').classList.add('active');
+        document.getElementById('imgfinance').classList.add('active');
+        document.getElementById('text7').classList.add('active');
+        document.getElementById('containermenu').classList.add('active');
+    });
+    $("#crossRotate1").click(function() {
+        document.getElementById('rotation').classList.add('active1');
+        document.getElementById('imgpeople').classList.add('active');
+        document.getElementById('text6').classList.add('active');
+        document.getElementById('containermenu').classList.add('active');
+    });
+});
+
 var x, i, j, l, ll, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
 x = document.getElementsByClassName("custom-select");

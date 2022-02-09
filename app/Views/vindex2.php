@@ -159,6 +159,56 @@
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
             </nav>
 
+            <div class="circlemenu">
+              <div class="containermenu" id="containermenu">
+                <div class="planet"></div>
+                <div class="rotation" id="rotation">
+                  <div class="satellite">
+                    <h2>NFT</h2>
+                    <img src="<?php echo base_url('/assets/img/nft.png'); ?>" height="40">
+                    <div class="hr"></div>
+                  </div>
+                  <div class="satellite2">
+                    <h2>WORLD WIDE</h2>
+                    <img src="<?php echo base_url('/assets/img/www.png'); ?>" height="40">
+                  </div>
+
+                  <div class="satellite3" >
+                    <h2>CAREER</h2>
+                    <img src="<?php echo base_url('/assets/img/career.png'); ?>" height="40">
+                    <div class="hr3"></div>
+                  </div>
+
+                  <div class="satellite4">
+                    <h2>CHAT</h2>
+                    <img src="<?php echo base_url('/assets/img/chat.png'); ?>" height="40">
+                  </div>
+
+                  <div class="satellite5">
+                    <h2>SECURE</h2>
+                    <img src="<?php echo base_url('/assets/img/secure.png'); ?>" height="40">
+                  </div>
+                  <div class="satellite6" id="crossRotate1">
+                    <h2 class="text6" id="text6">FRIENDS</h2>
+                    <img src="<?php echo base_url('/assets/img/friend.png'); ?>" height="40" class="imgpeople" id="imgpeople">
+                    <div class="hr6"></div>
+                  </div>
+                  <div class="satellite7" id="crossRotate">
+                    <h2 class="text7" id="text7">FINANCE</h2>
+                    <img src="<?php echo base_url('/assets/img/finance.png'); ?>" height="40" class="imgfinance" id="imgfinance">
+
+                    <div class="hr7"></div>
+                  </div>
+                  <div class="satellite8">
+                    <h2>INVESTMENT</h2>
+                    <img src="<?php echo base_url('/assets/img/invest.png'); ?>" height="40">
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
             <h1 style="margin-top:250px;">How to Play NovaLife</h1>
             <hr class="new1">
             <p margin-timezone_open="" style="margin-top: 30px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
@@ -238,23 +288,19 @@
               <div class="partner" style="margin-right:40px"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
               <div class="partner"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
             </div>
-            <div class="row" style="position: relative;display:flex;justify-content: center;margin-top: 100px;">
-              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
-              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
-              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
-              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
-              <div class="partner2" style="margin-right:9px"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
-              <div class="partner2"><span class="material-icons md-50" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
-            </div>
             <div class="row" style="position: relative;margin: auto;display: inline-flex;margin-top: 100px;">
-              <div class="p-slider">
-                <h3 class="product-slider-heading">PARTNER</h3>
-                <div class="product-box">
-                  <div class="p-img">
-                    <a href="#">
-                      <img class="p-img-front" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="Front">
-                      <img class="p-img-back" src="<?php echo base_url('/assets/img/core.png'); ?>" alt="Back">
-                    </a>
+              <div class="container mt-3">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <div class="card border-0 shadow-sm">
+                      <div class="card-body rounded p-0">
+                        <!-- ROW CONTENT -->
+                        <div class="row">
+                          <iframe src="<?php echo base_url('home/partner'); ?>" style="border:none;width: 1100px;height: 200px;margin-left:30px;" title="Iframe Example"></iframe>
+                        </div>
+                        <!-- END ROW -->
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -339,22 +385,22 @@
               <div class="roundthree">
                 <h3>Sales Round 3</h3>
                 <p>0.50$ per NLC-Coin<br />
-                74.000.000 NLC-Coins<br />
-                37.000.000 USD</p>
+                  74.000.000 NLC-Coins<br />
+                  37.000.000 USD</p>
               </div>
 
               <div class="roundtwo">
                 <h3>Sales Round 2</h3>
                 <p>0.25$ per NLC-Coin<br />
-                40.000.000 NLC-Coins<br />
-                10.000.000 USD</p>
+                  40.000.000 NLC-Coins<br />
+                  10.000.000 USD</p>
               </div>
 
               <div class="roundfour">
                 <h3>Sales Round 4</h3>
                 <p>0.75$ per NLC-Coin<br />
-                66.666.666 NLC-Coins<br />
-                50.000.000 USD</p>
+                  66.666.666 NLC-Coins<br />
+                  50.000.000 USD</p>
               </div>
             </div>
 
@@ -388,15 +434,16 @@
         <div class="row content">
           <div class="col-sm-9 text-center">
             <h1>Buy or Sell NFTs & NLC-Coins</h1>
-            <hr class="new1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <hr class="marketline">
+            <p style="margin-top: 20px;margin-bottom: 110px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
             <div class="market">
               <div class="row">
                 <div class="col-sm-6 marketa">
                   <div class="">
                     <h2>Buy and Sell<br /> NLC-NFT's</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    <p style="margin-top: 40px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                       sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <ul role="list">
                       <div style="margin-left:130px;">
@@ -417,7 +464,7 @@
             </div>
 
             <div class="markets">
-              <div class="row">
+              <div class="row" style="margin-top: 180px;">
                 <div class="col-sm-6 marketa">
                   <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
                 </div>
@@ -453,17 +500,32 @@
               </div>
             </div><!-- end of markets content c -->
             <div class="marketpresale">
-              <div class="row">
+              <div class="row" style="margin-top: 100px;">
                 <h1>NFT & Market Launch</h1>
                 <hr class="new1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-                <img src="<?php echo base_url('/assets/img/presale.png'); ?>" alt="">
+                <p style="margin-top: 40px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                <div class="initialttwo">
+                  <div class="rowbar"></div>
+                  <div class="roundonep">
+                    <h3>Presale Plots & Flats/Houses</h3>
+                    <p>01.11.2022</p>
+                  </div>
+                  <div class="roundthreep">
+                    <h3>Launch NFT ad-on</h3>
+                    <p>01.08.2023</p>
+                  </div>
+
+                  <div class="roundtwop">
+                    <h3>Launch Nova Market</h3>
+                    <p>10.01.2023</p>
+                  </div>
+                </div>
               </div>
             </div>
 
             <div class="marketpresale">
               <div class="row boxm">
-                <div class="boxmarket"><img src="<?php echo base_url('assets/img/homey.png'); ?>">
+                <div class="boxmarket"><span class="material-icons md-100">house</span>
                   <h3>Presale Plots & Flats/Houses</h3>
                   <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
                     adipiscing elitsed do eiusmod tempor
@@ -472,7 +534,9 @@
                     Ut enim ad minim veniam, quis nostrud
                     exercitation</p>
                 </div>
-                <div class="boxmarket"><img src="<?php echo base_url('assets/img/store.png'); ?>">
+                <div class="boxmarket"><span class="material-icons md-100">
+                    store_mall_directory
+                  </span>
                   <h3>Presale Plots & Flats/Houses</h3>
                   <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
                     adipiscing elitsed do eiusmod tempor
@@ -481,7 +545,9 @@
                     Ut enim ad minim veniam, quis nostrud
                     exercitation</p>
                 </div>
-                <div class="boxmarket"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
+                <div class="boxmarket"><span class="material-icons md-100">
+                    add_to_queue
+                  </span>
                   <h3>Presale Plots & Flats/Houses</h3>
                   <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
                     adipiscing elitsed do eiusmod tempor
@@ -504,7 +570,7 @@
           <div class="col-sm-9 text-center">
             <h1>NovaCircle - Bank</h1>
             <hr class="new1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+            <p style="margin-top: 20px;margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
 
             <div class="novacircle">
               <div class="row">
@@ -517,38 +583,47 @@
             </div>
             <div class="novacircle" style="display:inline-flex">
               <div class="row boxm">
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/homey.png'); ?>">
+                <div class="boxcircle"><span class="material-icons md-101">
+                    save_alt
+                  </span>
                   <h3>Receive</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/store.png'); ?>">
+                <div class="boxcircle"><span class="material-icons md-101">
+                    send
+                  </span>
                   <h3>Send</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
+                <div class="boxcircle"><span class="material-icons md-101">
+                    compare_arrows
+                  </span>
                   <h3>Exchange</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
+                <div class="boxcircle"><span class="material-icons md-101">
+                    local_grocery_store
+                  </span>
                   <h3>Spend</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
               </div>
             </div>
-            <div class="market">
+
+            <!-- content market -->
+            <div class="market" style="margin-top: 70px;">
               <div class="row">
                 <div class="col-sm-6 marketa">
                   <div class="">
-                    <h2>Store your Crypto and <br />
-                      Fiat in one place</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    <h2 class="fontncbankh2">Store your Crypto and<br /> Fiat in one place</h2>
+                    <p style="margin-top: 40px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                       sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <ul role="list">
-                      <div style="height:100px;width: 400px;margin-left: 135px;">
+                      <div style="margin-left:130px;">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                         <li>
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -560,81 +635,94 @@
                   </div>
                 </div>
                 <div class="col-sm-6 marketb">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
+                  <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
                 </div>
               </div>
             </div>
-            <div class="market">
-              <div class="row" style="margin-top: -40px;">
-                <div class="col-sm-6 marketa">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
-                </div>
-                <div class="col-sm-6 marketb">
-                  <div class="">
-                    <h2 style="text-align:left">Exchange your assets <br />
-                      at anytime</h2>
-                    <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul role="list">
-                      <div style="height:100px;width: 400px;margin-left: -5px;">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="market">
-              <div class="row" style="margin-top: -40px;">
-                <div class="col-sm-6 marketa">
-                  <div class="">
-                    <h2>Get returns on your <br />
-                      NLC-Coins</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul role="list">
-                      <div style="height:100px;width: 400px;margin-left: 135px;">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-6 marketb">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="market">
+
+            <div class="market" style="margin-top: 200px;">
               <div class="row">
                 <div class="col-sm-6 marketa">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
+                  <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="" style="margin-left: 20px;">
                 </div>
-                <div class="col-sm-6 marketb">
+                <div class="col-sm-6 marketb" style="right: -100px;">
 
                   <div class="">
-                    <h2 style="text-align:left">Manage and keep <br />
-                      your NLC-NFT’s</h2>
-                    <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    <h2 class="fontncbankh2 left">Exchange your assets
+                      <br /> at anytime
+                    </h2>
+                    <p style="margin-top: 40px;margin-bottom: 20px;text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                       sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <ul role="list">
-                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      <li>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      </li>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      <div>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      </div>
+
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="market" style="margin-top: 200px;">
+              <div class="row">
+                <div class="col-sm-6 marketa">
+                  <div class="">
+                    <h2 class="fontncbankh2">Get returns on your
+                      <br /> NLC-Coins
+                    </h2>
+                    <p style="margin-top: 40px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <ul role="list">
+                      <div style="margin-left:130px;">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      </div>
+
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 marketb">
+                  <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="market" style="margin-top: 200px;">
+              <div class="row">
+                <div class="col-sm-6 marketa">
+                  <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="" style="margin-left: 20px;">
+                </div>
+                <div class="col-sm-6 marketb" style="right: -100px;">
+
+                  <div class="">
+                    <h2 class="fontncbankh2 left">Manage and keep
+                      <br /> your NLC-NFT’s
+                    </h2>
+                    <p style="margin-top: 40px;margin-bottom: 20px;text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <ul role="list">
+                      <div>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                      </div>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end content market -->
           </div>
         </div>
       </div>
@@ -658,129 +746,50 @@
               </div>
             </div>
 
-            <h1>Virtual Office for Teamwork</h1>
+            <h1 style="margin-top: 300px;">Virtual Office for Teamwork</h1>
             <hr class="new1">
-            <p class="p-nvo-1">A revolutionary collaborative experience for remote work</p>
-            <p class="p-nvo-2">We do our best work as part of a team. NVO allows you to create, discuss, and share your work
+            <p class="p-nvo-3">A revolutionary collaborative experience for remote work</p>
+            <p class="p-nvo-2">We do our best work as part of a team. NVO allows you to create, discuss, and share your work <br />
               with colleagues. Take your team collaboration to the next level.</p>
+            <div class="novacircle">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="">
+                    <img src="<?php echo base_url('/assets/img/nvovirtual.png'); ?>" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="novacircle" style="display:inline-flex">
               <div class="row boxm">
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/homey.png'); ?>">
-                  <h3>Receive</h3>
+                <div class="boxcircle"><span class="material-icons md-101">
+                    view_in_ar
+                  </span>
+                  <h3>Augmented Reality</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/store.png'); ?>">
-                  <h3>Send</h3>
+                <div class="boxcircle"><span class="material-icons md-101">
+                    mic_none
+                  </span>
+                  <h3>nteractive Voice chat</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
-                  <h3>Exchange</h3>
+                <div class="boxcircle"><span class="material-icons md-101">
+                    airplay
+                  </span>
+                  <h3>Share your work</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
                 </div>
-                <div class="boxcircle"><img src="<?php echo base_url('assets/img/queue.png'); ?>">
-                  <h3>Spend</h3>
+                <div class="boxcircle"><span class="material-icons md-101">
+                    thumbs_up_down
+                  </span>
+                  <h3>Work efficiency</h3>
                   <p>Lorem ipsum dolor sit amet
                     consectetur adipiscing elit</p>
-                </div>
-              </div>
-            </div>
-            <div class="market">
-              <div class="row">
-                <div class="col-sm-6 marketa">
-                  <div class="">
-                    <h2>Store your Crypto and <br />
-                      Fiat in one place</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul role="list">
-                      <div style="height:100px;width: 400px;margin-left: 135px;">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      </div>
-
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-6 marketb">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="market">
-              <div class="row" style="margin-top: -40px;">
-                <div class="col-sm-6 marketa">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
-                </div>
-                <div class="col-sm-6 marketb">
-                  <div class="">
-                    <h2 style="text-align:left">Exchange your assets <br />
-                      at anytime</h2>
-                    <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul role="list">
-                      <div style="height:100px;width: 400px;margin-left: -5px;">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="market">
-              <div class="row" style="margin-top: -40px;">
-                <div class="col-sm-6 marketa">
-                  <div class="">
-                    <h2>Get returns on your <br />
-                      NLC-Coins</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul role="list">
-                      <div style="height:100px;width: 400px;margin-left: 135px;">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-6 marketb">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="market">
-              <div class="row">
-                <div class="col-sm-6 marketa">
-                  <img src="<?php echo base_url('assets/img/blank.jpg'); ?>" alt="">
-                </div>
-                <div class="col-sm-6 marketb">
-
-                  <div class="">
-                    <h2 style="text-align:left">Manage and keep <br />
-                      your NLC-NFT’s</h2>
-                    <p style="text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul role="list">
-                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                      <li>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      </li>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
