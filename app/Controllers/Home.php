@@ -24,4 +24,9 @@ class Home extends BaseController
     {
         return view('vterm');
     }
+
+    public function partner()
+    {
+        return view('vpartner');
+    }
 }

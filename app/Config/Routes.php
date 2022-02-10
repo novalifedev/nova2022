@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/', 'Home::index2');
 $routes->get('/', 'Home::privacy');
 $routes->get('/', 'Home::imprint');
+$routes->get('/', 'Home::partner');
 
 /*
  * --------------------------------------------------------------------
