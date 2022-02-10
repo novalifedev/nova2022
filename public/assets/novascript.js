@@ -1,17 +1,119 @@
 $(document).ready(function() {
     $("#crossRotate").click(function() {
+        resetposition();
         document.getElementById('rotation').classList.add('active');
         document.getElementById('imgfinance').classList.add('active');
+        document.getElementById('imgpeople').classList.add('active7');
+        document.getElementById('imgcareer').classList.add('active7');
+        document.getElementById('imgchat').classList.add('active7');
+        document.getElementById('imginvest').classList.add('active7');
+        document.getElementById('imgsecure').classList.add('active7');
+        document.getElementById('imgwww').classList.add('active7');
+        document.getElementById('imgnft').classList.add('active7');
+        document.getElementById('hr7').classList.add('active7');
+        $("#popupfinance2").fadeIn(4000);
+        //document.getElementById('popupfinance2').classList.add('active');
         document.getElementById('text7').classList.add('active');
+        document.getElementById('text6').classList.add('active7');
+        document.getElementById('text3').classList.add('active7');
+        document.getElementById('text4').classList.add('active7');
+        document.getElementById('text8').classList.add('active7');
+        document.getElementById('text1').classList.add('active7');
+        document.getElementById('text2').classList.add('active7');
+        document.getElementById('text5').classList.add('active7');
         document.getElementById('containermenu').classList.add('active');
     });
     $("#crossRotate1").click(function() {
+        resetposition();
         document.getElementById('rotation').classList.add('active1');
         document.getElementById('imgpeople').classList.add('active');
         document.getElementById('text6').classList.add('active');
         document.getElementById('containermenu').classList.add('active');
     });
+
+    $("#planet").click(function() {
+        document.getElementById('rotation').classList.remove('active');
+        document.getElementById('rotation').classList.remove('active1');
+        document.getElementById('imgfinance').classList.remove('active');
+        document.getElementById('imgpeople').classList.remove('active');
+        document.getElementById('imgpeople').classList.remove('active7');
+        document.getElementById('imgcareer').classList.remove('active7');
+        document.getElementById('imgchat').classList.remove('active7');
+        document.getElementById('imginvest').classList.remove('active7');
+        document.getElementById('imgwww').classList.remove('active7');
+        document.getElementById('imgsecure').classList.remove('active7');
+        document.getElementById('imgnft').classList.remove('active7');
+        document.getElementById('hr7').classList.remove('active7');
+        document.getElementById('text7').classList.remove('active');
+        document.getElementById('text6').classList.remove('active7');
+        document.getElementById('text6').classList.remove('active');
+        document.getElementById('text3').classList.remove('active7');
+        document.getElementById('text4').classList.remove('active7');
+        document.getElementById('text8').classList.remove('active7');
+        document.getElementById('text1').classList.remove('active7');
+        document.getElementById('text2').classList.remove('active7');
+        document.getElementById('text5').classList.remove('active7');
+        document.getElementById('containermenu').classList.remove('active');
+        var x = document.getElementById("popupfinance2");
+        $("#popupfinance2").fadeIn("slow");
+        x.style.display = "none";
+    });
+
+    function resetposition() {
+        document.getElementById('rotation').classList.remove('active');
+        document.getElementById('rotation').classList.remove('active1');
+        document.getElementById('imgfinance').classList.remove('active');
+        document.getElementById('imgpeople').classList.remove('active');
+        document.getElementById('imgpeople').classList.remove('active7');
+        document.getElementById('imgcareer').classList.remove('active7');
+        document.getElementById('imgchat').classList.remove('active7');
+        document.getElementById('imginvest').classList.remove('active7');
+        document.getElementById('imgwww').classList.remove('active7');
+        document.getElementById('imgsecure').classList.remove('active7');
+        document.getElementById('imgnft').classList.remove('active7');
+        document.getElementById('hr7').classList.remove('active7');
+        document.getElementById('text7').classList.remove('active');
+        document.getElementById('text6').classList.remove('active7');
+        document.getElementById('text6').classList.remove('active');
+        document.getElementById('text3').classList.remove('active7');
+        document.getElementById('text4').classList.remove('active7');
+        document.getElementById('text8').classList.remove('active7');
+        document.getElementById('text1').classList.remove('active7');
+        document.getElementById('text2').classList.remove('active7');
+        document.getElementById('text5').classList.remove('active7');
+        document.getElementById('containermenu').classList.remove('active');
+        var x = document.getElementById("popupfinance2");
+        $("#popupfinance2").fadeIn("slow");
+        x.style.display = "none";
+    }
 });
+
+function resetposition() {
+    document.getElementById('rotation').classList.remove('active');
+    document.getElementById('rotation').classList.remove('active1');
+    document.getElementById('imgfinance').classList.remove('active');
+    document.getElementById('imgpeople').classList.remove('active');
+    document.getElementById('imgpeople').classList.remove('active7');
+    document.getElementById('imgcareer').classList.remove('active7');
+    document.getElementById('imgchat').classList.remove('active7');
+    document.getElementById('imginvest').classList.remove('active7');
+    document.getElementById('imgwww').classList.remove('active7');
+    document.getElementById('imgsecure').classList.remove('active7');
+    document.getElementById('imgnft').classList.remove('active7');
+    document.getElementById('hr7').classList.remove('active7');
+    document.getElementById('text7').classList.remove('active');
+    document.getElementById('text6').classList.remove('active7');
+    document.getElementById('text6').classList.remove('active');
+    document.getElementById('text3').classList.remove('active7');
+    document.getElementById('text4').classList.remove('active7');
+    document.getElementById('text8').classList.remove('active7');
+    document.getElementById('text1').classList.remove('active7');
+    document.getElementById('text2').classList.remove('active7');
+    document.getElementById('text5').classList.remove('active7');
+    document.getElementById('containermenu').classList.remove('active');
+    var x = document.getElementById("popupfinance2");
+    x.style.display = "none";
+}
 
 var x, i, j, l, ll, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
@@ -172,11 +274,6 @@ for (var i = 0, l = items.length; i < l; i++) {
     items[i].style.left = (50 - 35 * Math.cos(-0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
 
     items[i].style.top = (50 + 35 * Math.sin(-0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
-}
-
-document.querySelector('.menu-button').onclick = function(e) {
-    e.preventDefault();
-    document.querySelector('.circle').classList.toggle('open');
 }
 
 

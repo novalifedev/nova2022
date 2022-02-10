@@ -76,7 +76,8 @@
           <div class="col-sm-9 text-center">
             <h1>Welcome to NovaLife</h1>
             <hr class="new1">
-            <p style="margin-bottom:250px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <p style="margin-bottom:50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <!-- 
             <nav class="circular-menu" style="margin-top:50px">
               <div class="circle open">
                 <a href="" class="searchEngineLink">
@@ -157,36 +158,39 @@
                 </a>
               </div>
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
-            </nav>
-
+            </nav> -->
+            <div class="popupfinance2" id="popupfinance2">           
+            <h2 style="margin-left:20px;margin-top:10px">FINANCEs</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
             <div class="circlemenu">
               <div class="containermenu" id="containermenu">
-                <div class="planet"></div>
+                <div class="planet" id="planet"></div>
                 <div class="rotation" id="rotation">
                   <div class="satellite">
-                    <h2>NFT</h2>
-                    <img src="<?php echo base_url('/assets/img/nft.png'); ?>" height="40">
+                    <h2 class="text1" id="text1">NFT</h2>
+                    <img src="<?php echo base_url('/assets/img/nft.png'); ?>" height="40" class="imgnft" id="imgnft">
                     <div class="hr"></div>
                   </div>
                   <div class="satellite2">
-                    <h2>WORLD WIDE</h2>
-                    <img src="<?php echo base_url('/assets/img/www.png'); ?>" height="40">
+                    <h2 class="text2" id="text2">WORLD WIDE</h2>
+                    <img src="<?php echo base_url('/assets/img/www.png'); ?>" height="40" class="imgwww" id="imgwww">
                   </div>
 
                   <div class="satellite3" >
-                    <h2>CAREER</h2>
-                    <img src="<?php echo base_url('/assets/img/career.png'); ?>" height="40">
+                    <h2 class="text3" id="text3">CAREER</h2>
+                    <img src="<?php echo base_url('/assets/img/career.png'); ?>" height="40" class="imgcareer" id="imgcareer">
                     <div class="hr3"></div>
                   </div>
 
                   <div class="satellite4">
-                    <h2>CHAT</h2>
-                    <img src="<?php echo base_url('/assets/img/chat.png'); ?>" height="40">
+                    <h2 class="text4" id="text4">CHAT</h2>
+                    <img src="<?php echo base_url('/assets/img/chat.png'); ?>" height="40" class="imgchat" id="imgchat">
                   </div>
 
                   <div class="satellite5">
-                    <h2>SECURE</h2>
-                    <img src="<?php echo base_url('/assets/img/secure.png'); ?>" height="40">
+                    <h2 class="text5" id="text5">SECURE</h2>
+                    <img src="<?php echo base_url('/assets/img/secure.png'); ?>" height="40" class="imgsecure" id="imgsecure">
                   </div>
                   <div class="satellite6" id="crossRotate1">
                     <h2 class="text6" id="text6">FRIENDS</h2>
@@ -196,12 +200,11 @@
                   <div class="satellite7" id="crossRotate">
                     <h2 class="text7" id="text7">FINANCE</h2>
                     <img src="<?php echo base_url('/assets/img/finance.png'); ?>" height="40" class="imgfinance" id="imgfinance">
-
-                    <div class="hr7"></div>
+                    <div class="hr7" id="hr7"></div>                    
                   </div>
                   <div class="satellite8">
-                    <h2>INVESTMENT</h2>
-                    <img src="<?php echo base_url('/assets/img/invest.png'); ?>" height="40">
+                    <h2 class="text8" id="text8">INVESTMENT</h2>
+                    <img src="<?php echo base_url('/assets/img/invest.png'); ?>" height="40" height="40" class="imginvest" id="imginvest">
                   </div>
 
                 </div>

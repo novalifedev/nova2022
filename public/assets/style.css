@@ -1304,14 +1304,12 @@ h2 {
     height: 4700px;
     margin-left: 400px;
     text-align: left;
-    border: 1px solid yellow;
 }
 
 #section6 {
     height: 2700px;
     margin-left: 400px;
     text-align: left;
-    border: 1px solid red;
 }
 
 .imprint {
@@ -2145,6 +2143,20 @@ ul.nav>li>a:hover {
     right: 0;
 }
 
+.closepopup {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 10px;
+    right: 10px;
+}
+
 .boxotp {
     display: inline-flex;
     width: 40px;
@@ -2479,6 +2491,23 @@ ul.nav>li>a:hover {
     z-index: 1;
     top: -80px;
     left: 50px;
+    text-align: left;
+}
+
+.popupfinance2 {
+    position: absolute;
+    display: inline-block;
+    width: 515px;
+    height: 168px;
+    background: linear-gradient(90deg, rgba(46, 56, 128, 0.5) 19.79%, rgba(57, 187, 254, 0.5) 78.65%);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: none;
+    z-index: 1;
+    top: 450px;
+    left: 20px;
     text-align: left;
 }
 
@@ -3471,7 +3500,7 @@ hr.nlccdetails {
 
 .circlemenu {
     height: 700px;
-    border: 1px solid blue;
+    /* border: 1px solid blue;  */
     margin-top: 140px;
     position: relative;
     width: 1350px;
@@ -3483,7 +3512,7 @@ hr.nlccdetails {
     height: 600px;
     width: 600px;
     margin: 0;
-    border: rgb(251, 255, 0) 1px solid;
+    /*border: rgb(251, 255, 0) 1px solid; */
     position: relative;
     left: 200px;
 }
@@ -3492,11 +3521,11 @@ hr.nlccdetails {
     height: 600px;
     width: 600px;
     margin: 0;
-    border: rgb(251, 255, 0) 1px solid;
+    /*border: rgb(251, 255, 0) 1px solid; */
     position: relative;
     animation: example;
     transition: all 2s ease;
-    transform: translateX(10px);
+    transform: translateX(-90px);
     animation-duration: 4s;
     animation-delay: -2s;
     animation-fill-mode: forwards;
@@ -3575,7 +3604,6 @@ hr.nlccdetails {
     border-radius: 50%;
     z-index: 1;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
 }
@@ -3584,7 +3612,6 @@ hr.nlccdetails {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -3597,7 +3624,6 @@ hr.nlccdetails {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -3610,21 +3636,19 @@ hr.nlccdetails {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
     z-index: 1;
     position: absolute;
     top: 200px;
-    right: -0px;
+    right: -10px;
 }
 
 .satellite5 {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -3638,7 +3662,6 @@ hr.nlccdetails {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -3651,7 +3674,6 @@ hr.nlccdetails {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -3664,7 +3686,6 @@ hr.nlccdetails {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background: url('bubble.png');
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -3681,7 +3702,7 @@ hr.nlccdetails {
     transform: rotate(-45deg);
     z-index: -1;
     top: 0px;
-    left: 120px;
+    left: 125px;
 }
 
 .hr7 {
@@ -3692,6 +3713,19 @@ hr.nlccdetails {
     z-index: -2;
     top: 0px;
     left: 25px;
+    transform: scaleY(1);
+}
+
+.hr7.active7 {
+    position: absolute;
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 360px;
+    /* transform: rotate(-45deg); */
+    z-index: -2;
+    top: 0px;
+    left: 25px;
+    transition: ease 4s;
+    transform: scaleY(1.3) translateY(-80px);
 }
 
 .hr6 {
@@ -3722,6 +3756,23 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgnft {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 0px;
+    position: relative;
+}
+
+.imgnft.active7 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 0px;
+    position: relative;
+    transform: rotate(90deg);
+}
+
 .satellite7 img {
     height: 64px;
     width: 64px;
@@ -3730,12 +3781,20 @@ hr.nlccdetails {
     position: relative;
 }
 
-.imgfinance {
+.satellite7 img:hover {
     height: 64px;
     width: 64px;
     top: -25px;
     left: -5px;
     position: relative;
+    transform: scale(1.1);
+}
+
+.imgfinance {
+    height: 64px;
+    width: 64px;
+    top: -25px;
+    left: -5px;
     position: relative;
 }
 
@@ -3744,6 +3803,16 @@ hr.nlccdetails {
     width: 64px;
     position: relative;
     transform: rotate(90deg);
+    transition: ease 4s;
+    top: -200px
+}
+
+.imgfinance.active:hover {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    transform: rotate(90deg);
+    top: -200px
 }
 
 .imgpeople {
@@ -3763,6 +3832,15 @@ hr.nlccdetails {
     transform: rotate(135deg);
 }
 
+.imgpeople.active7 {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: 10px;
+    position: relative;
+    transform: rotate(90deg);
+}
+
 .satellite6 img {
     height: 64px;
     width: 64px;
@@ -3780,6 +3858,23 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgcareer {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 11px;
+    position: relative;
+}
+
+.imgcareer.active7 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 11px;
+    position: relative;
+    transform: rotate(90deg);
+}
+
 .satellite4 img {
     /*  animation: headup 60s linear infinite; */
     height: 64px;
@@ -3787,6 +3882,25 @@ hr.nlccdetails {
     top: 0px;
     left: 0px;
     position: relative;
+}
+
+.imgchat {
+    /*  animation: headup 60s linear infinite; */
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+
+.imgchat.active7 {
+    /*  animation: headup 60s linear infinite; */
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transform: rotate(90deg);
 }
 
 .satellite8 img {
@@ -3797,6 +3911,23 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imginvest {
+    height: 64px;
+    width: 64px;
+    top: 10px;
+    left: 0px;
+    position: relative;
+}
+
+.imginvest.active7 {
+    height: 64px;
+    width: 64px;
+    top: 10px;
+    left: 0px;
+    position: relative;
+    transform: rotate(90deg);
+}
+
 .satellite2 img {
     height: 64px;
     width: 64px;
@@ -3805,12 +3936,46 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgwww {
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: -10px;
+    position: relative;
+}
+
+.imgwww.active7 {
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: -10px;
+    position: relative;
+    transform: rotate(90deg);
+}
+
 .satellite5 img {
     height: 64px;
     width: 64px;
     top: -10px;
     left: -20px;
     position: relative;
+}
+
+.imgsecure {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -20px;
+    position: relative;
+}
+
+.imgsecure.active7 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -20px;
+    position: relative;
+    transform: rotate(90deg);
 }
 
 .satellite7 h2 {
@@ -3852,9 +4017,10 @@ hr.nlccdetails {
     text-align: center;
     position: absolute;
     transform: rotate(90deg);
-    transition: transform 0.6s;
+    transition: transform 1.8s;
     top: -100px;
     left: -25px;
+    display: none;
 }
 
 .satellite6 h2 {
@@ -3868,7 +4034,7 @@ hr.nlccdetails {
     text-align: center;
     top: -10px;
     position: absolute;
-    left: 67px;
+    left: 60px
 }
 
 .text6 {
@@ -3882,7 +4048,7 @@ hr.nlccdetails {
     text-align: center;
     top: -10px;
     position: absolute;
-    left: 67px;
+    left: 80px
 }
 
 .text6.active {
@@ -3898,7 +4064,23 @@ hr.nlccdetails {
     position: absolute;
     left: 50px;
     transform: rotate(135deg);
-    transition: transform 0.6s;
+    transition: transform 1.8s;
+}
+
+.text6.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: absolute;
+    transform: rotate(90deg);
+    top: -90px;
+    left: 6px;
+    transition: transform 1.8s;
 }
 
 .satellite3 h2 {
@@ -3915,6 +4097,36 @@ hr.nlccdetails {
     left: 80px;
 }
 
+.text3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    left: 80px;
+}
+
+.text3.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    left: 50px;
+    transition: transform 1.8s;
+    transform: rotate(90deg);
+}
+
 .satellite4 h2 {
     font-family: Roboto;
     font-style: normal;
@@ -3929,6 +4141,36 @@ hr.nlccdetails {
     left: 80px;
 }
 
+.text4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 12px;
+    position: absolute;
+    left: 80px;
+}
+
+.text4.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 60px;
+    position: absolute;
+    left: 10px;
+    transition: transform 1.8s;
+    transform: rotate(90deg);
+}
+
 .satellite8 h2 {
     font-family: Roboto;
     font-style: normal;
@@ -3941,6 +4183,35 @@ hr.nlccdetails {
     top: 65px;
     position: absolute;
     left: -19px;
+}
+
+.text8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 65px;
+    position: absolute;
+    left: -19px;
+}
+
+.text8.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 100px;
+    position: absolute;
+    left: -19px;
+    transform: rotate(90deg);
 }
 
 .satellite2 h2 {
@@ -3958,6 +4229,37 @@ hr.nlccdetails {
     width: 200px;
 }
 
+.text2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 0px;
+    position: absolute;
+    left: -175px;
+    width: 200px;
+}
+
+.text2.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 10px;
+    position: absolute;
+    left: -120px;
+    width: 200px;
+    transform: rotate(90deg);
+}
+
 .satellite5 h2 {
     font-family: Roboto;
     font-style: normal;
@@ -3972,6 +4274,35 @@ hr.nlccdetails {
     left: -95px;
 }
 
+.text5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    left: -95px;
+}
+
+.text5.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    left: -70px;
+    transform: rotate(90deg);
+}
+
 .satellite h2 {
     font-family: Roboto;
     font-style: normal;
@@ -3984,6 +4315,35 @@ hr.nlccdetails {
     top: -9px;
     position: absolute;
     left: -40px;
+}
+
+.text1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -9px;
+    position: absolute;
+    left: -40px;
+}
+
+.text1.active7 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -9px;
+    position: absolute;
+    left: -30px;
+    transform: rotate(90deg);
 }
 
 @keyframes headup {
@@ -4002,4 +4362,11 @@ hr.nlccdetails {
     100% {
         transform: rotate(-360deg);
     }
+}
+
+.pcirclemenu {
+    height: 105px;
+    width: 470px;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
