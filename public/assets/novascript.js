@@ -11,8 +11,7 @@ $(document).ready(function() {
         document.getElementById('imgwww').classList.add('active7');
         document.getElementById('imgnft').classList.add('active7');
         document.getElementById('hr7').classList.add('active7');
-        $("#popupfinance2").fadeIn(4000);
-        //document.getElementById('popupfinance2').classList.add('active');
+        $("#popupfinance2").delay(2000).fadeIn(2000);
         document.getElementById('text7').classList.add('active');
         document.getElementById('text6').classList.add('active7');
         document.getElementById('text3').classList.add('active7');
@@ -27,6 +26,13 @@ $(document).ready(function() {
         resetposition();
         document.getElementById('rotation').classList.add('active1');
         document.getElementById('imgpeople').classList.add('active');
+        document.getElementById('imgfinance').classList.add('active6');
+        document.getElementById('imgcareer').classList.add('active6');
+        document.getElementById('imgchat').classList.add('active6');
+        document.getElementById('imginvest').classList.add('active6');
+        document.getElementById('imgsecure').classList.add('active6');
+        document.getElementById('imgwww').classList.add('active6');
+        document.getElementById('imgnft').classList.add('active6');
         document.getElementById('text6').classList.add('active');
         document.getElementById('containermenu').classList.add('active');
     });

@@ -160,7 +160,7 @@
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
             </nav> -->
             <div class="popupfinance2" id="popupfinance2">           
-            <h2 style="margin-left:20px;margin-top:10px">FINANCEs</h2> <div class="closepopup" onclick="resetposition()">X</div>
+            <h2 style="margin-left:20px;margin-top:10px">FINANCE</h2> <div class="closepopup" onclick="resetposition()">X</div>
                     <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="circlemenu">
@@ -731,7 +731,7 @@
       </div>
 
       <!-- start section 6 -->
-      <div id="section6">
+      <div id="section6" style="margin-top: 100px;">
         <div class="row content">
           <div class="col-sm-9 text-center">
             <h1>Nova Virtual Office</h1>
