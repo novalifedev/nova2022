@@ -3532,12 +3532,12 @@ hr.nlccdetails {
 
 @keyframes example {
     50% {
-        transform: translateX(700px);
+        transform: translateX(600px);
         left: 0px;
         top: 0px;
     }
     100% {
-        transform: translateX(700px);
+        transform: translateX(600px);
         left: 0px;
         top: 0px;
     }
@@ -3710,6 +3710,18 @@ hr.nlccdetails {
     left: 125px;
 }
 
+.hr.active6 {
+    position: absolute;
+    border-left: 1px solid rgb(255, 255, 255);
+    transition-delay: 2s;
+    transition: ease 2s;
+    height: 360px;
+    transform: rotate(-45deg);
+    z-index: -1;
+    top: -55px;
+    left: 125px;
+}
+
 .hr7 {
     position: absolute;
     border-left: 1px solid rgb(255, 255, 255);
@@ -3742,6 +3754,22 @@ hr.nlccdetails {
     z-index: -101;
     top: -20px;
     left: -80px;
+}
+
+.hr6.active6 {
+    position: absolute;
+    animation: extendlongleft 2s linear;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes extendlongleft {
+    100% {
+        border-left: 1px solid rgb(255, 255, 255);
+        height: 470px;
+        top: -186px;
+        left: 1px;
+    }
 }
 
 .hr3 {
@@ -3783,10 +3811,11 @@ hr.nlccdetails {
 .imgnft.active6 {
     height: 64px;
     width: 64px;
-    top: -18px;
-    left: 0px;
+    top: -30px;
+    left: -30px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
 }
 
 .satellite7 img {
@@ -3814,21 +3843,22 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgfinance.active7 {
+    height: 64px;
+    width: 64px;
+    top: -25px;
+    left: -5px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-270deg);
+}
+
 .imgfinance.active {
     height: 64px;
     width: 64px;
     position: relative;
     transition: ease 2s;
-    transform: rotate(-270deg);
     top: -200px
-}
-
-.imgfinance.active6 {
-    height: 64px;
-    width: 64px;
-    position: relative;
-    transform: rotate(135deg);
-    transition: ease 4s;
 }
 
 .imgfinance.active:hover {
@@ -3839,6 +3869,20 @@ hr.nlccdetails {
     top: -200px
 }
 
+.imgfinance.active6 {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-225deg);
+}
+
+.imgfinance.active6:hover {
+    height: 64px;
+    width: 64px;
+    position: relative;
+}
+
 .imgpeople {
     height: 64px;
     width: 64px;
@@ -3847,13 +3891,28 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgpeople:hover {
+    transform: scale(1.1);
+}
+
 .imgpeople.active {
     height: 64px;
     width: 64px;
     top: -20px;
     left: 10px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
+    animation: movedtoleft 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes movedtoleft {
+    100% {
+        top: -150px;
+        left: 140px;
+    }
 }
 
 .imgpeople.active7 {
@@ -3907,7 +3966,8 @@ hr.nlccdetails {
     top: -10px;
     left: 11px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
 }
 
 .satellite4 img {
@@ -3943,10 +4003,11 @@ hr.nlccdetails {
     /*  animation: headup 60s linear infinite; */
     height: 64px;
     width: 64px;
-    top: 0px;
-    left: 0px;
+    top: 20px;
+    left: 10px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
 }
 
 .satellite8 img {
@@ -3981,7 +4042,8 @@ hr.nlccdetails {
     top: 10px;
     left: 0px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
 }
 
 .satellite2 img {
@@ -4016,7 +4078,8 @@ hr.nlccdetails {
     top: 0px;
     left: -10px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
 }
 
 .satellite5 img {
@@ -4051,7 +4114,8 @@ hr.nlccdetails {
     top: -10px;
     left: -20px;
     position: relative;
-    transform: rotate(135deg);
+    transition: linear 2s;
+    transform: rotate(-225deg);
 }
 
 .satellite7 h2 {
@@ -4099,6 +4163,22 @@ hr.nlccdetails {
     display: none;
 }
 
+.text7.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -90px;
+    position: absolute;
+    left: 40px;
+    transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
+}
+
 .satellite6 h2 {
     font-family: Roboto;
     font-style: normal;
@@ -4141,6 +4221,7 @@ hr.nlccdetails {
     left: 50px;
     transform: rotate(135deg);
     transition: transform 1.8s;
+    display: none;
 }
 
 .text6.active7 {
@@ -4157,6 +4238,7 @@ hr.nlccdetails {
     top: -90px;
     left: 6px;
     transition: transform 1.8s;
+    animation: fadeintext 3.7s linear;
 }
 
 .satellite3 h2 {
@@ -4201,6 +4283,38 @@ hr.nlccdetails {
     left: 50px;
     transition: transform 1.8s;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text3.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -70px;
+    position: absolute;
+    transform: rotate(135deg);
+    left: 70px;
+    animation: fadeintext 3.7s linear;
+}
+
+@keyframes fadeintext {
+    0% {
+        opacity: 0;
+    }
+    20%,
+    40%,
+    60%,
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .satellite4 h2 {
@@ -4245,6 +4359,23 @@ hr.nlccdetails {
     left: 10px;
     transition: transform 1.8s;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text4.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 60px;
+    position: absolute;
+    left: 60px;
+    transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .satellite8 h2 {
@@ -4288,6 +4419,23 @@ hr.nlccdetails {
     position: absolute;
     left: -19px;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text8.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 80px;
+    position: absolute;
+    left: -100px;
+    transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .satellite2 h2 {
@@ -4334,6 +4482,24 @@ hr.nlccdetails {
     left: -80px;
     width: 200px;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text2.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 70px;
+    position: absolute;
+    left: -145px;
+    width: 200px;
+    transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .satellite5 h2 {
@@ -4377,6 +4543,23 @@ hr.nlccdetails {
     position: absolute;
     left: -70px;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text5.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 45px;
+    position: absolute;
+    left: -80px;
+    transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .satellite h2 {
@@ -4420,6 +4603,23 @@ hr.nlccdetails {
     position: absolute;
     left: 0px;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text1.active6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -70px;
+    position: absolute;
+    left: -60px;
+    transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 @keyframes headup {

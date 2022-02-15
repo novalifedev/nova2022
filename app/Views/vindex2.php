@@ -170,7 +170,7 @@
                   <div class="satellite">
                     <h2 class="text1" id="text1">NFT</h2>
                     <img src="<?php echo base_url('/assets/img/nft.png'); ?>" height="40" class="imgnft" id="imgnft">
-                    <div class="hr"></div>
+                    <div class="hr" id="hr"></div>
                   </div>
                   <div class="satellite2">
                     <h2 class="text2" id="text2">WORLD WIDE</h2>
@@ -195,7 +195,7 @@
                   <div class="satellite6" id="crossRotate1">
                     <h2 class="text6" id="text6">FRIENDS</h2>
                     <img src="<?php echo base_url('/assets/img/friend.png'); ?>" height="40" class="imgpeople" id="imgpeople">
-                    <div class="hr6"></div>
+                    <div class="hr6" id="hr6"></div>
                   </div>
                   <div class="satellite7" id="crossRotate">
                     <h2 class="text7" id="text7">FINANCE</h2>
