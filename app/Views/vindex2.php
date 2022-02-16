@@ -159,8 +159,16 @@
               </div>
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
             </nav> -->
-            <div class="popupfinance2" id="popupfinance2">           
+            <div class="popupbox" id="popupbox">           
             <h2 style="margin-left:20px;margin-top:10px">FINANCE</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="popupbox" id="popupfriends">           
+            <h2 style="margin-left:20px;margin-top:10px">FRIENDS</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="popupbox" id="popupcareer">           
+            <h2 style="margin-left:20px;margin-top:10px">CAREER</h2> <div class="closepopup" onclick="resetposition()">X</div>
                     <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="circlemenu">
@@ -177,7 +185,7 @@
                     <img src="<?php echo base_url('/assets/img/www.png'); ?>" height="40" class="imgwww" id="imgwww">
                   </div>
 
-                  <div class="satellite3" >
+                  <div class="satellite3" id="crossRotate3">
                     <h2 class="text3" id="text3">CAREER</h2>
                     <img src="<?php echo base_url('/assets/img/career.png'); ?>" height="40" class="imgcareer" id="imgcareer">
                     <div class="hr3"></div>
@@ -212,7 +220,7 @@
 
               </div>
             </div>
-            <h1 style="margin-top:250px;">How to Play NovaLife</h1>
+            <h1 style="margin-top:0px;">How to Play NovaLife</h1>
             <hr class="new1">
             <p margin-timezone_open="" style="margin-top: 30px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
