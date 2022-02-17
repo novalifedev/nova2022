@@ -171,16 +171,38 @@
             <h2 style="margin-left:20px;margin-top:10px">CAREER</h2> <div class="closepopup" onclick="resetposition()">X</div>
                     <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
+
+            <div class="popupbox" id="popupchat">           
+            <h2 style="margin-left:20px;margin-top:10px">CHAT</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="popupbox" id="popupinvest">           
+            <h2 style="margin-left:20px;margin-top:10px">INVESTMENT</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="popupbox" id="popupwww">           
+            <h2 style="margin-left:20px;margin-top:10px">WORLD WIDE</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="popupbox" id="popupsecure">           
+            <h2 style="margin-left:20px;margin-top:10px">SECURE</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="popupbox" id="popupnft">           
+            <h2 style="margin-left:20px;margin-top:10px">NFT</h2> <div class="closepopup" onclick="resetposition()">X</div>
+                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            
             <div class="circlemenu">
               <div class="containermenu" id="containermenu">
                 <div class="planet" id="planet"></div>
                 <div class="rotation" id="rotation">
-                  <div class="satellite">
+                  <div class="satellite" id="crossRotatenft">
                     <h2 class="text1" id="text1">NFT</h2>
                     <img src="<?php echo base_url('/assets/img/nft.png'); ?>" height="40" class="imgnft" id="imgnft">
                     <div class="hr" id="hr"></div>
                   </div>
-                  <div class="satellite2">
+                  <div class="satellite2" id="crossRotate2">
                     <h2 class="text2" id="text2">WORLD WIDE</h2>
                     <img src="<?php echo base_url('/assets/img/www.png'); ?>" height="40" class="imgwww" id="imgwww">
                   </div>
@@ -188,15 +210,15 @@
                   <div class="satellite3" id="crossRotate3">
                     <h2 class="text3" id="text3">CAREER</h2>
                     <img src="<?php echo base_url('/assets/img/career.png'); ?>" height="40" class="imgcareer" id="imgcareer">
-                    <div class="hr3"></div>
+                    <div class="hr3" id="hr3"></div>
                   </div>
 
-                  <div class="satellite4">
+                  <div class="satellite4" id="crossRotate4">
                     <h2 class="text4" id="text4">CHAT</h2>
                     <img src="<?php echo base_url('/assets/img/chat.png'); ?>" height="40" class="imgchat" id="imgchat">
                   </div>
 
-                  <div class="satellite5">
+                  <div class="satellite5" id="crossRotate5">
                     <h2 class="text5" id="text5">SECURE</h2>
                     <img src="<?php echo base_url('/assets/img/secure.png'); ?>" height="40" class="imgsecure" id="imgsecure">
                   </div>
@@ -210,7 +232,7 @@
                     <img src="<?php echo base_url('/assets/img/finance.png'); ?>" height="40" class="imgfinance" id="imgfinance">
                     <div class="hr7" id="hr7"></div>                    
                   </div>
-                  <div class="satellite8">
+                  <div class="satellite8" id="crossRotate8">
                     <h2 class="text8" id="text8">INVESTMENT</h2>
                     <img src="<?php echo base_url('/assets/img/invest.png'); ?>" height="40" height="40" class="imginvest" id="imginvest">
                   </div>
