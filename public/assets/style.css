@@ -1295,7 +1295,7 @@ h2 {
 }
 
 #section4 {
-    height: 2000px;
+    height: 3000px;
     margin-left: 400px;
     text-align: left;
 }
@@ -3526,7 +3526,33 @@ hr.nlccdetails {
     animation: example;
     transition: all 1s ease;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
     animation-delay: 2s;
+}
+
+.containermenu.activefast {
+    height: 600px;
+    width: 600px;
+    margin: 0;
+    /*border: rgb(251, 255, 0) 1px solid; */
+    position: relative;
+    animation: example;
+    transition: all 1s ease;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.containermenu.activefast5 {
+    height: 600px;
+    width: 600px;
+    margin: 0;
+    /*border: rgb(251, 255, 0) 1px solid; */
+    position: relative;
+    animation: example;
+    transition: all 1s ease;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
     animation-fill-mode: forwards;
 }
 
@@ -3601,6 +3627,61 @@ hr.nlccdetails {
     z-index: 1;
 }
 
+.rotation.active4 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    animation: revolve4 2s linear;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.rotation.active8 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    animation: revolve8 2s linear;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.rotation.active2 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    animation: revolve2 1s linear;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.rotation.active5 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    animation: revolve5 2s linear;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.rotation.activenft {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    animation: revolvenft 2s linear;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
 @keyframes revolve {
     100% {
         transform: rotate(270deg);
@@ -3613,9 +3694,39 @@ hr.nlccdetails {
     }
 }
 
+@keyframes revolve2 {
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
 @keyframes revolve3 {
     100% {
         transform: rotate(180deg);
+    }
+}
+
+@keyframes revolve4 {
+    100% {
+        transform: rotate(135deg);
+    }
+}
+
+@keyframes revolve8 {
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes revolve5 {
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes revolvenft {
+    100% {
+        transform: rotate(315deg);
     }
 }
 
@@ -3739,6 +3850,18 @@ hr.nlccdetails {
     left: 125px;
 }
 
+.hr.active4 {
+    transition: linear 2s;
+    transform: rotate(-45deg) scaleY(1.9) translateY(50px);
+    transition-delay: 3s;
+}
+
+.hr.activenft {
+    transition: linear 2s;
+    transform: rotate(-45deg) scaleY(2) translateY(-40px);
+    transition-delay: 3s;
+}
+
 .hr7 {
     position: absolute;
     border-left: 1px solid rgb(255, 255, 255);
@@ -3758,8 +3881,21 @@ hr.nlccdetails {
     z-index: -2;
     top: 0px;
     left: 25px;
-    transition: linear 1s;
+    transition: linear 2s;
     transform: scaleY(1.3) translateY(-80px);
+    transition-delay: 3s;
+}
+
+.hr7.active8 {
+    position: absolute;
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 360px;
+    transform: rotate(-45deg);
+    z-index: -2;
+    top: 0px;
+    left: 25px;
+    transition: linear 3s;
+    transform: scaleY(1.4) translateY(70px);
     transition-delay: 3s;
 }
 
@@ -3781,11 +3917,23 @@ hr.nlccdetails {
     width: 300px;
 }
 
+.hr6.active2 {
+    transition: linear 2s;
+    transform: rotate(45deg) scaleY(1.6) translateY(50px);
+    transition-delay: 3s;
+}
+
 .hr6.active6 {
     position: absolute;
-    animation: extendlongleft 2s linear;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
+    position: absolute;
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 300px;
+    z-index: -2;
+    transition: linear 2.5s;
+    transition-delay: 0s;
+    transition-delay: 0s;
+    transform: rotate(45deg) scaleY(1.7) translateY(-70px);
+    transition-delay: 3s;
 }
 
 @keyframes extendlongleft {
@@ -3809,6 +3957,29 @@ hr.nlccdetails {
     left: -120px;
 }
 
+.hr3.active3 {
+    position: absolute;
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 300px;
+    transform: rotate(90deg);
+    z-index: -2;
+    transition: linear 3s;
+    transition-delay: 0s;
+    transform: scaleX(1.8) translateX(55px) rotate(90deg);
+    transition-delay: 3s;
+}
+
+@keyframes extendlongleft3 {
+    100% {
+        border-left: 1px solid rgb(255, 255, 255);
+        height: 500px;
+        transform: rotate(90deg);
+        z-index: -101;
+        top: -225px;
+        left: -30px;
+    }
+}
+
 .satellite img {
     height: 64px;
     width: 64px;
@@ -3825,6 +3996,26 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgnft.activenft {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+    animation: movedtoleftnft 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes movedtoleftnft {
+    100% {
+        top: -160px;
+        left: -150px;
+    }
+}
+
 .imgnft.active7 {
     height: 64px;
     width: 64px;
@@ -3833,6 +4024,36 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-270deg);
+}
+
+.imgnft.active4 {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: -20px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+}
+
+.imgnft.active2 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -10px;
+    position: relative;
+    transition: linear 1s;
+    transform: rotate(-45deg);
+}
+
+.imgnft.active8 {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: -20px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
 }
 
 .imgnft.active3 {
@@ -3863,7 +4084,7 @@ hr.nlccdetails {
     position: relative;
 }
 
-.satellite7 img:hover {
+.imgfinance:hover {
     height: 64px;
     width: 64px;
     top: -25px;
@@ -3888,6 +4109,19 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-270deg);
+    animation: movedtoleft7 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+.imgfinance.active7:hover {
+    transition: none;
+}
+
+@keyframes movedtoleft7 {
+    100% {
+        top: -200px;
+    }
 }
 
 .imgfinance.active3 {
@@ -3900,20 +4134,44 @@ hr.nlccdetails {
     transform: rotate(-180deg);
 }
 
-.imgfinance.active {
+.imgfinance.activenft {
     height: 64px;
     width: 64px;
+    top: -25px;
+    left: -5px;
     position: relative;
-    transition: ease 2s;
-    top: -200px
+    transition: linear 2s;
+    transform: rotate(-315deg);
 }
 
-.imgfinance.active:hover {
+.imgfinance.active2 {
     height: 64px;
     width: 64px;
+    top: -25px;
+    left: -5px;
     position: relative;
-    transition-delay: 3s;
-    top: -200px
+    transition: linear 2s;
+    transform: rotate(-45deg);
+}
+
+.imgfinance.active8 {
+    height: 64px;
+    width: 64px;
+    top: -25px;
+    left: -5px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
+}
+
+.imgfinance.active4 {
+    height: 64px;
+    width: 64px;
+    top: -25px;
+    left: -5px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
 }
 
 .imgfinance.active6 {
@@ -3972,6 +4230,16 @@ hr.nlccdetails {
     transform: rotate(-270deg);
 }
 
+.imgpeople.activenft {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: 10px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+}
+
 .imgpeople.active3 {
     height: 64px;
     width: 64px;
@@ -3980,6 +4248,36 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-180deg);
+}
+
+.imgpeople.active2 {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: 10px;
+    position: relative;
+    transition: linear 1s;
+    transform: rotate(-45deg);
+}
+
+.imgpeople.active4 {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: 10px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+}
+
+.imgpeople.active8 {
+    height: 64px;
+    width: 64px;
+    top: -20px;
+    left: 10px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
 }
 
 .satellite6 img {
@@ -4017,6 +4315,46 @@ hr.nlccdetails {
     transform: rotate(-270deg);
 }
 
+.imgcareer.active4 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 11px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+}
+
+.imgcareer.activenft {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 11px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+}
+
+.imgcareer.active2 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 11px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-45deg);
+}
+
+.imgcareer.active8 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: 11px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
+}
+
 .imgcareer.active3 {
     height: 64px;
     width: 64px;
@@ -4025,6 +4363,16 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-180deg);
+    animation: movedtoleft3 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes movedtoleft3 {
+    100% {
+        top: -10px;
+        left: 200px;
+    }
 }
 
 .imgcareer.active6 {
@@ -4055,6 +4403,27 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgchat.active4 {
+    /*  animation: headup 60s linear infinite; */
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+    animation: movedtoleft4 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes movedtoleft4 {
+    100% {
+        top: 140px;
+        left: 140px;
+    }
+}
+
 .imgchat.active7 {
     /*  animation: headup 60s linear infinite; */
     height: 64px;
@@ -4066,6 +4435,17 @@ hr.nlccdetails {
     transform: rotate(-270deg);
 }
 
+.imgchat.activenft {
+    /*  animation: headup 60s linear infinite; */
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+}
+
 .imgchat.active3 {
     /*  animation: headup 60s linear infinite; */
     height: 64px;
@@ -4075,6 +4455,28 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-180deg);
+}
+
+.imgchat.active2 {
+    /*  animation: headup 60s linear infinite; */
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-45deg);
+}
+
+.imgchat.active8 {
+    /*  animation: headup 60s linear infinite; */
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
 }
 
 .imgchat.active6 {
@@ -4104,6 +4506,19 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imginvest.active8 {
+    animation: movedtoleft8 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes movedtoleft8 {
+    100% {
+        top: 200px;
+        left: 0px;
+    }
+}
+
 .imginvest.active7 {
     height: 64px;
     width: 64px;
@@ -4114,6 +4529,36 @@ hr.nlccdetails {
     transform: rotate(-270deg);
 }
 
+.imginvest.activenft {
+    height: 64px;
+    width: 64px;
+    top: 10px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+}
+
+.imginvest.active4 {
+    height: 64px;
+    width: 64px;
+    top: 10px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+}
+
+.imginvest.active2 {
+    height: 64px;
+    width: 64px;
+    top: 10px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-45deg);
+}
+
 .imginvest.active3 {
     height: 64px;
     width: 64px;
@@ -4122,6 +4567,16 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-180deg);
+}
+
+.imginvest.active8 {
+    height: 64px;
+    width: 64px;
+    top: 10px;
+    left: 0px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
 }
 
 .imginvest.active6 {
@@ -4150,6 +4605,24 @@ hr.nlccdetails {
     position: relative;
 }
 
+.imgwww.active2 {
+    height: 64px;
+    width: 64px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-45deg);
+    animation: movedtoleft2 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes movedtoleft2 {
+    100% {
+        top: 150px;
+        left: -160px;
+    }
+}
+
 .imgwww.active7 {
     height: 64px;
     width: 64px;
@@ -4158,6 +4631,36 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-270deg);
+}
+
+.imgwww.activenft {
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: -10px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+}
+
+.imgwww.active4 {
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: -10px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+}
+
+.imgwww.active8 {
+    height: 64px;
+    width: 64px;
+    top: 0px;
+    left: -10px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
 }
 
 .imgwww.active3 {
@@ -4206,6 +4709,36 @@ hr.nlccdetails {
     transform: rotate(-270deg);
 }
 
+.imgsecure.activenft {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -20px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-315deg);
+}
+
+.imgsecure.active4 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -20px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-135deg);
+}
+
+.imgsecure.active8 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -20px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-90deg);
+}
+
 .imgsecure.active3 {
     height: 64px;
     width: 64px;
@@ -4224,6 +4757,16 @@ hr.nlccdetails {
     position: relative;
     transition: linear 2s;
     transform: rotate(-225deg);
+}
+
+.imgsecure.active2 {
+    height: 64px;
+    width: 64px;
+    top: -10px;
+    left: -20px;
+    position: relative;
+    transition: linear 2s;
+    transform: rotate(-45deg);
 }
 
 .satellite7 h2 {
@@ -4254,6 +4797,38 @@ hr.nlccdetails {
     left: -8px;
 }
 
+.text7.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -100px;
+    position: absolute;
+    left: -8px;
+    transform: rotate(-90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text7.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -90px;
+    position: absolute;
+    left: 40px;
+    transform: rotate(-45deg);
+    animation: fadeintext 3.7s linear;
+}
+
 .text7.active {
     font-family: Roboto;
     font-style: normal;
@@ -4269,6 +4844,38 @@ hr.nlccdetails {
     top: -100px;
     left: -25px;
     display: none;
+}
+
+.text7.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -90px;
+    position: absolute;
+    left: -60px;
+    transform: rotate(-135deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text7.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -80px;
+    position: absolute;
+    left: -70px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .text7.active6 {
@@ -4346,6 +4953,70 @@ hr.nlccdetails {
     transform: rotate(135deg);
     transition: transform 1.8s;
     display: none;
+}
+
+.text6.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -80px;
+    position: absolute;
+    left: 65px;
+    transform: rotate(-45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text6.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -60px;
+    position: absolute;
+    left: 45px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text6.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -90px;
+    position: absolute;
+    left: 20px;
+    transform: rotate(-90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text6.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -50px;
+    position: absolute;
+    left: 40px;
+    transform: rotate(-135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .text6.active7 {
@@ -4427,6 +5098,54 @@ hr.nlccdetails {
     animation: fadeintext 3.7s linear;
 }
 
+.text3.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 30px;
+    position: absolute;
+    left: 70px;
+    transform: rotate(-135deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text3.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -47px;
+    position: absolute;
+    left: 70px;
+    transform: rotate(-45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text3.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 60px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
+}
+
 .text3.active6 {
     font-family: Roboto;
     font-style: normal;
@@ -4456,6 +5175,23 @@ hr.nlccdetails {
     position: absolute;
     transform: rotate(180deg);
     left: 80px;
+    display: none;
+    animation: fadeintext 3.7s linear;
+}
+
+.text3.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    left: 50px;
+    transform: rotate(-90deg);
     animation: fadeintext 3.7s linear;
 }
 
@@ -4519,6 +5255,38 @@ hr.nlccdetails {
     animation: fadeintext 3.7s linear;
 }
 
+.text4.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 40px;
+    position: absolute;
+    left: 40px;
+    transform: rotate(-45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text4.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 50px;
+    position: absolute;
+    left: 50px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
+}
+
 .text4.active3 {
     font-family: Roboto;
     font-style: normal;
@@ -4534,6 +5302,26 @@ hr.nlccdetails {
     transition: transform 1.8s;
     transform: rotate(180deg);
     animation: fadeintext 3.7s linear;
+}
+
+.text4.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 70px;
+    position: absolute;
+    left: 20px;
+    transform: rotate(-90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text4.active4 {
+    display: none;
 }
 
 .text4.active6 {
@@ -4596,6 +5384,26 @@ hr.nlccdetails {
     animation: fadeintext 3.7s linear;
 }
 
+.text8.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 85px;
+    position: absolute;
+    left: 40px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text8.active8 {
+    display: none;
+}
+
 .text8.active3 {
     font-family: Roboto;
     font-style: normal;
@@ -4612,6 +5420,22 @@ hr.nlccdetails {
     animation: fadeintext 3.7s linear;
 }
 
+.text8.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 90px;
+    position: absolute;
+    left: 40px;
+    transform: rotate(-135deg);
+    animation: fadeintext 3.7s linear;
+}
+
 .text8.active6 {
     font-family: Roboto;
     font-style: normal;
@@ -4625,6 +5449,22 @@ hr.nlccdetails {
     position: absolute;
     left: -100px;
     transform: rotate(135deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text8.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 90px;
+    position: absolute;
+    left: -90px;
+    transform: rotate(-45deg);
     animation: fadeintext 3.7s linear;
 }
 
@@ -4658,6 +5498,10 @@ hr.nlccdetails {
     width: 200px;
 }
 
+.text2.active2 {
+    display: none;
+}
+
 .text2.active7 {
     font-family: Roboto;
     font-style: normal;
@@ -4672,6 +5516,57 @@ hr.nlccdetails {
     left: -80px;
     width: 200px;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text2.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 40px;
+    position: absolute;
+    left: -120px;
+    width: 200px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text2.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 100px;
+    position: absolute;
+    left: -90px;
+    width: 200px;
+    transform: rotate(-90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text2.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    top: 30px;
+    position: absolute;
+    left: -110px;
+    width: 200px;
+    transform: rotate(-135deg);
     animation: fadeintext 3.7s linear;
 }
 
@@ -4737,6 +5632,54 @@ hr.nlccdetails {
     left: -95px;
 }
 
+.text5.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    left: -70px;
+    transform: rotate(-90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text5.activenft {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -60px;
+    position: absolute;
+    left: -90px;
+    transform: rotate(45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text5.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: 50px;
+    position: absolute;
+    left: -90px;
+    transform: rotate(-45deg);
+    animation: fadeintext 3.7s linear;
+}
+
 .text5.active7 {
     font-family: Roboto;
     font-style: normal;
@@ -4750,6 +5693,22 @@ hr.nlccdetails {
     position: absolute;
     left: -70px;
     transform: rotate(90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text5.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -50px;
+    position: absolute;
+    left: -80px;
+    transform: rotate(-135deg);
     animation: fadeintext 3.7s linear;
 }
 
@@ -4811,6 +5770,58 @@ hr.nlccdetails {
     top: -9px;
     position: absolute;
     left: -40px;
+}
+
+.text1.activenft {
+    display: none;
+}
+
+.text1.active8 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -75px;
+    position: absolute;
+    left: -10px;
+    transform: rotate(-90deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text1.active2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -50px;
+    position: absolute;
+    left: -40px;
+    transform: rotate(-45deg);
+    animation: fadeintext 3.7s linear;
+}
+
+.text1.active4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    top: -67px;
+    position: absolute;
+    left: -55px;
+    transform: rotate(-135deg);
+    animation: fadeintext 3.7s linear;
 }
 
 .text1.active7 {
