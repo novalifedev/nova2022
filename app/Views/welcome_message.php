@@ -159,40 +159,48 @@
               </div>
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
             </nav> -->
-            <div class="popupbox" id="popupbox">           
-            <h2 style="margin-left:20px;margin-top:10px">FINANCE</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupbox">
+              <h2 style="margin-left:20px;margin-top:10px">FINANCE</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupfriends">           
-            <h2 style="margin-left:20px;margin-top:10px">FRIENDS</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupfriends">
+              <h2 style="margin-left:20px;margin-top:10px">FRIENDS</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupcareer">           
-            <h2 style="margin-left:20px;margin-top:10px">CAREER</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupcareer">
+              <h2 style="margin-left:20px;margin-top:10px">CAREER</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class="popupbox" id="popupchat">           
-            <h2 style="margin-left:20px;margin-top:10px">CHAT</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupchat">
+              <h2 style="margin-left:20px;margin-top:10px">CHAT</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupinvest">           
-            <h2 style="margin-left:20px;margin-top:10px">INVESTMENT</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupinvest">
+              <h2 style="margin-left:20px;margin-top:10px">INVESTMENT</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupwww">           
-            <h2 style="margin-left:20px;margin-top:10px">WORLD WIDE</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupwww">
+              <h2 style="margin-left:20px;margin-top:10px">WORLD WIDE</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupsecure">           
-            <h2 style="margin-left:20px;margin-top:10px">SECURE</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupsecure">
+              <h2 style="margin-left:20px;margin-top:10px">SECURE</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupnft">           
-            <h2 style="margin-left:20px;margin-top:10px">NFT</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupnft">
+              <h2 style="margin-left:20px;margin-top:10px">NFT</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            
+
             <div class="circlemenu">
               <div class="containermenu" id="containermenu">
                 <div class="planet" id="planet"></div>
@@ -230,7 +238,7 @@
                   <div class="satellite7" id="crossRotate">
                     <h2 class="text7" id="text7">FINANCE</h2>
                     <img src="<?php echo base_url('/assets/img/finance.png'); ?>" height="40" class="imgfinance" id="imgfinance">
-                    <div class="hr7" id="hr7"></div>                    
+                    <div class="hr7" id="hr7"></div>
                   </div>
                   <div class="satellite8" id="crossRotate8">
                     <h2 class="text8" id="text8">INVESTMENT</h2>

@@ -12,6 +12,10 @@ class Home extends BaseController
     {
         return view('vindex2');
     }
+    public function index3()
+    {
+        return view('vindex3');
+    }
     public function privacy()
     {
         return view('vprivacy');
