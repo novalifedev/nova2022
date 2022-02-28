@@ -36,7 +36,7 @@
         <li class="nav-link js-scroll-trigger"><a href="#about">
             <div class="hoverbg" id="home2" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">home</span>| HOME</div>
           </a></li>
-        <li class="nav-link js-scroll-trigger"><a href="#experience">
+        <li class="nav-link js-scroll-trigger"><a href="#nlcc">
             <div class="hoverbg" id="home3" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance_wallet</span>| NLCC</div>
           </a></li>
         <li class="nav-link js-scroll-trigger"><a href="#section4">
@@ -65,15 +65,17 @@
       <div class="menuheader"><span class="material-icons" style="color:white;">
           person
         </span>
-        <div class="textmenuheader" style="position: relative;top: -5px;">1.000.000<span class="neon">Registered</span></div>
+        <div class="textmenuheader adjust">1.000.000<span class="neon">Registered</span></div>
       </div>
+      <div class="headerhr"></div>
       <div class="menuheader"><span class="material-icons" style="color:white;">
           people
         </span>
-        <div class="textmenuheader" style="position: relative;top: -5px;">1.000.000<span class="neon">Online Today</span></div>
+        <div class="textmenuheader adjust">1.000.000<span class="neon">Online Today</span></div>
       </div>
-      <div class="menuheader"><img class="loggo" src="<?php echo base_url('/assets/img/logo_coin_1024x1024.png'); ?>">
-        <div class="textmenuheader">1.000.000<span class="neon">NLC-Coin</span></div>
+      <div class="headerhr"></div>
+      <div class="menuheader "><img class="loggo" src="<?php echo base_url('/assets/img/logo_coin_1024x1024.png'); ?>">
+        <div class="textmenuheader adjustcoin">1.000.000<span class="neon">NLC-Coin</span></div>
       </div>
     </div>
 
@@ -90,7 +92,7 @@
     </div>
   </nav>
   <div class="container-fluid p-0">
-    <!-- About-->
+    <!-- About home-->
     <section class="resume-section fullwidth" id="about">
       <div class="imgjumbotron">
         <div class="centerhome">
@@ -187,7 +189,7 @@
                   <h3 class="title"><span style="margin-top: 100px;margin-left: 38px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
                   <p class="timeline2">2</p>
                   <div class="d-flex flex-row firsttimeline" style="margin-top: -60px;margin-left: -2px;height:309px;">
-                    <div class="col-sm-8">
+                    <div class="col-sm-8 tcontent">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt</p><br />
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -195,8 +197,13 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt</p><br />
                     </div>
+                    <div class="col-sm-8 tcontent1024">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt</p>
+                    </div>
                     <div class="col-sm-4">
                       <div class="videoright"></div>
+                      <div class="videoright1024"></div>
                     </div>
                   </div>
                 </div>
@@ -206,7 +213,7 @@
                   <h3 class="title"><span style="margin-top: 100px;margin-left: 38px;position: relative;top: -60px;">Lorem Ipsum</span></h3>
                   <p class="timeline2">3</p>
                   <div class="d-flex flex-row firsttimeline" style="margin-top: -60px;margin-left: -2px;height:309px;">
-                    <div class="col-sm-8">
+                    <div class="col-sm-8 tcontent">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt</p><br />
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -214,8 +221,13 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt</p><br />
                     </div>
+                    <div class="col-sm-8 tcontent1024">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt</p>
+                    </div>
                     <div class="col-sm-4">
                       <div class="videoright"></div>
+                      <div class="videoright1024"></div>
                     </div>
                   </div>
                 </div>
@@ -223,74 +235,265 @@
             </div>
           </div>
         </div>
+        <div class="flex-grow-1 text-center">
+          <h1 style="margin-top: 345px;">Our Partner</h1>
+          <hr class="new2">
+          <p class="ourpartner">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br />
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
-        
+        </div>
+        <div class="flex-grow-1">
+          <div class="row partner-row">
+            <div class="partner">
+              <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+            </div>
+            <div class="partner"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+            <div class="partner"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
+          </div>
+        </div>
+        <div class="container text-center my-3">
+          <div class="row mx-auto my-auto justify-content-center sliderwidth">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="col-md-3">
+                    <div class="card partner1024">
+                      <span class="material-icons md-602" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card partner1024">
+                      <span class="material-icons md-602" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card partner1024">
+                      <span class="material-icons md-602" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card partner1024">
+                      <span class="material-icons md-602" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card partner1024">
+                      <span class="material-icons md-602" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card partner1024 img-fluid">
+                      <span class="material-icons md-602" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
     <hr class="m-0" />
-    <!-- Education-->
-    <section class="resume-section" id="education">
+    <!-- NLCC-->
+    <section class="resume-section" id="nlcc">
       <div class="resume-section-content">
-        <h2 class="mb-5">Education</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 text-center">
+            <h1>NovaLive Chain-Coin</h1>
+            <hr class="new1">
+            <br /><br /><br />
+            <p style="margin-bottom: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+          </div>
+        </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <div class="chaincoin"><img src="<?php echo base_url('assets/img/core2.png'); ?>" class="img-fluid background centered" alt="Responsive image">
+              <div class="topleft">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+              <div class="bottomleft">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+              <div class="bottomright">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+              <div class="topright">
+                <div class="content">
+                  <h3>LOREMIPSUM</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
         </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 text-center details">
+            <h1>NLC-Coin Details</h1>
+            <hr class="nlccdetails">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
         </div>
-      </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 testing">
+            <div class="row nlcc d-flex p-2 flex-row">
+              <div class="col-md-4 nlccbox"><img src="<?php echo base_url('/assets/img/equalizer_white_48dp.svg'); ?>" style="width: 71px;
+                height: 71px;
+                margin-bottom: 10px;
+                margin-top: 20px;">
+                <div class="nlccfont">CURRENT SUPPLY</div>
+                <div class="nlccfontlg">XX.XXX.XXX.XX</div>
+              </div>
+              <div class="col-md-4 nlccbox"><img src="<?php echo base_url('/assets/img/groups_white_48dp.svg'); ?>" style="">
+                <div class="nlccfont">HOLDER</div>
+                <div class="nlccfontlg">XX.XXX.XXX.XX</div>
+              </div>
+              <div class="col-md-4 nlccbox"><img src="<?php echo base_url('/assets/img/lock_white_48dp.svg'); ?>" style="width: 61px;
+  height: 61px;
+  margin-bottom: 20px;
+  margin-top: 20px;">
+                <div class="nlccfont">CURRENT LOCKED SUPPLY</div>
+                <div class="nlccfontlg">XX.XXX.XXX.XX</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 text-center">
+            <h1>Initial Game Offering</h1>
+            <hr class="new1">
+            <p style="margin-top:20px;margin-bottom: 90px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 text-center">
+            <div class="initial">
+              <div class="rowbar"></div>
+              <div class="roundone">
+                <h3>Sales Round 1</h3>
+                <p>0.20$ per NLC-Coin<br />
+                  15.000.000 NLC-Coins<br />
+                  3.000.000 USD</p>
+              </div>
+              <div class="roundthree">
+                <h3>Sales Round 3</h3>
+                <p>0.50$ per NLC-Coin<br />
+                  74.000.000 NLC-Coins<br />
+                  37.000.000 USD</p>
+              </div>
+
+              <div class="roundtwo">
+                <h3>Sales Round 2</h3>
+                <p>0.25$ per NLC-Coin<br />
+                  40.000.000 NLC-Coins<br />
+                  10.000.000 USD</p>
+              </div>
+
+              <div class="roundfour">
+                <h3>Sales Round 4</h3>
+                <p>0.75$ per NLC-Coin<br />
+                  66.666.666 NLC-Coins<br />
+                  50.000.000 USD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 text-center">
+            <div class="row nlcc2">
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont">AIRDROP & MARKETING</div>
+                <div class="nlccfontlg">54.333.334</div>
+              </div>
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont">TOTAL SALE SUPPLY</div>
+                <div class="nlccfontlg">195.666.666</div>
+              </div>
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont">COMPANY SUPPLY</div>
+                <div class="nlccfontlg">80.000.000</div>
+              </div>
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont">ECO-SYSTEM SUPPLY</div>
+                <div class="nlccfontlg">670.000.000</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="nlccsupply nlccfontbig">1.000.000.000<p class="pmaxsupply">MAXIMUM COIN SUPPLY | NLC-COINS</p>
+        </div>
     </section>
     <hr class="m-0" />
-    <!-- Skills-->
+    <!-- Markets -->
     <section class="resume-section" id="skills">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
-        <div class="subheading mb-3">Programming Languages & Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-          <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-          <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-          <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-          <li class="list-inline-item"><i class="fab fa-react"></i></li>
-          <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-          <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-          <li class="list-inline-item"><i class="fab fa-less"></i></li>
-          <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-          <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-          <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-          <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-        </ul>
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Mobile-First, Responsive Design
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Cross Browser Testing & Debugging
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Cross Functional Teams
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-check"></i></span>
-            Agile Development & Scrum
-          </li>
-        </ul>
+      <div class="resume-section-content text-center">
+        <h1>Buy or Sell NFTs & NLC-Coins</h1>
+        <hr class="marketline">
+        <p style="margin-top: 20px;margin-bottom: 110px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1 text-center">
+          <div class="market">
+              <h2>Buy and Sell<br /> NLC-NFT's</h2>
+              <p style="margin-top: 40px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list">
+                <div>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+          <div class="flex-grow-1 text-center">
+            <h2 class="mb-5">Interests</h2>
+          </div>
+        </div>
+
       </div>
+
     </section>
     <hr class="m-0" />
     <!-- Interests-->
