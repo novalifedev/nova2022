@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0, user-scalable=no"" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0, user-scalable=no" />
   <meta name=" description" content="" />
   <meta name="author" content="" />
   <title>NovaLife</title>
@@ -42,10 +42,10 @@
         <li class="nav-link js-scroll-trigger"><a href="#section4">
             <div class="hoverbg" id="home4" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">local_grocery_store</span>| MARKET</div>
           </a></li>
-        <li class="nav-link js-scroll-trigger"><a href="#section5">
+        <li class="nav-link js-scroll-trigger"><a href="#ncbank">
             <div class="hoverbg" id="home5" alt="" height="24px"></i><span class="material-icons" style="margin-right:4px;vertical-align: middle;">account_balance</span>| NC BANK</div>
           </a></li>
-        <li class="nav-link js-scroll-trigger"><a href="#section6">
+        <li class="nav-link js-scroll-trigger"><a href="#nvo">
             <div class="hoverbg" id="home6" alt="" height="24px"><span class="material-icons" style="margin-right:4px;vertical-align: middle;">widgets</span>| NVO</div>
           </a></li>
         <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -81,7 +81,19 @@
 
     <div class=" col-sm-11 neoninfo2 pull-right">
       <div class="menuheader">
-        <div id="loginbtn" onclick="showboxlogina()" style="margin-right: 20px;">ENGLISH</div>
+       <!--  <div id="loginbtn" onclick="showboxlogina()" style="margin-right: 20px;">ENGLISH</div> -->
+        <div class="custom-select" style="width:130px;margin-top: -5px;">
+    <select>
+        <option value="1">ENGLISH</option>
+        <option value="2">GERMAN</option>
+        <option value="3">CZECH</option>
+        <option value="4">HOLLAND</option>
+        <option value="5">JAPANESE</option>
+        <option value="6">CHINESE</option>
+        <option value="7">SPANISH</option>
+        <option value="8">BAHASA</option>
+    </select>
+  </div>
       </div>
       <div class="menuheader">
         <div id="loginbtn" onclick="showboxlogina()">LOGIN</div>
@@ -433,24 +445,44 @@
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1 text-center">
-            <div class="row nlcc2">
+            <div class="d-flex flex-column flex-md-row justify-content-evenly nlcc2 nlccdekstop">
               <div class="col-md-3 nlccbox2">
-                <div class="nlccfont">AIRDROP & MARKETING</div>
-                <div class="nlccfontlg">54.333.334</div>
+                <div class="nlccfont2">AIRDROP & MARKETING</div>
+                <div class="nlccfontlg2">54.333.334</div>
+              </div>
+              <div class="verticalhr"></div>
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont2">TOTAL SALE SUPPLY</div>
+                <div class="nlccfontlg2">195.666.666</div>
+              </div>
+              <div class="verticalhr"></div>
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont2">COMPANY SUPPLY</div>
+                <div class="nlccfontlg2">80.000.000</div>
+              </div>
+              <div class="verticalhr"></div>
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont2">ECO-SYSTEM SUPPLY</div>
+                <div class="nlccfontlg2">670.000.000</div>
+              </div>
+            </div>
+            <div class="row d-flex flex-md-row justify-content-evenly nlcc2 nlccmobile">
+              <div class="col-md-3 nlccbox2">
+                <div class="nlccfont2">AIRDROP & MARKETING</div>
+                <div class="nlccfontlg2">54.333.334</div>
               </div>
               <div class="col-md-3 nlccbox2">
-                <div class="nlccfont">TOTAL SALE SUPPLY</div>
-                <div class="nlccfontlg">195.666.666</div>
+                <div class="nlccfont2">TOTAL SALE SUPPLY</div>
+                <div class="nlccfontlg2">195.666.666</div>
               </div>
               <div class="col-md-3 nlccbox2">
-                <div class="nlccfont">COMPANY SUPPLY</div>
-                <div class="nlccfontlg">80.000.000</div>
+                <div class="nlccfont2">COMPANY SUPPLY</div>
+                <div class="nlccfontlg2">80.000.000</div>
               </div>
               <div class="col-md-3 nlccbox2">
-                <div class="nlccfont">ECO-SYSTEM SUPPLY</div>
-                <div class="nlccfontlg">670.000.000</div>
+                <div class="nlccfont2">ECO-SYSTEM SUPPLY</div>
+                <div class="nlccfontlg2">670.000.000</div>
               </div>
-
             </div>
           </div>
         </div>
@@ -459,20 +491,460 @@
     </section>
     <hr class="m-0" />
     <!-- Markets -->
-    <section class="resume-section" id="skills">
+    <section class="resume-section" id="section4">
       <div class="resume-section-content text-center">
         <h1>Buy or Sell NFTs & NLC-Coins</h1>
         <hr class="marketline">
         <p style="margin-top: 20px;margin-bottom: 110px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between mobile">
+          <div class="col-md-12">
+            <div class="flex-grow-1 text-center">
+              <div class="market mobile">
+                <h2 class="pmarketa mobile">Buy and Sell NLC-NFT's</h2>
+                <p class="pheadera">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                <ul role="list" class="listicon">
+                  <div>
+                    <li>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mobile">
+          <div class="col-md-12">
+            <div class="flex-grow-1 text-center">
+              <div class="marketb">
+                <img class="img-fluid" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktop">
+          <div class="col-md-6">
+            <div class="flex-grow-1 text-center">
+              <div class="market">
+                <h2 class="pmarketa">Buy and Sell<br /> NLC-NFT's</h2>
+                <p class="pheadera">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                <ul role="list" class="listicon">
+                  <div class="float-right">
+                    <li>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                    <li>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </li>
+                  </div>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="flex-grow-1 text-center">
+              <div class="marketb">
+                <img class="img-fluid" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile -->
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mobile">
+          <div class="col-md-12">
+            <div class="flex-grow-1 text-center markettab">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-puzzle-piece"><span id="tabmenu1"></i> Plot</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-home"></i><span id="tabmenu2"> Flats & Houses</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-car"></i><span id="tabmenu3"> Cars</span></button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <h3 class="h3-tab1 mobile">sit amet consectetur
+                    adipiscing elit</h3>
+                  <p class="p1-tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="p2-tab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <h3 class="h3-tab1 mobile">Flats and houses
+                    adipiscing elit</h3>
+                  <p class="p1-tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="p2-tab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <h3 class="h3-tab1 mobile">Cars
+                    adipiscing elit</h3>
+                  <p class="p1-tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="p2-tab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mobile">
+          <div class="col-md-12">
+            <div class="flex-grow-1 text-center">
+              <div class="marketb">
+                <img class="img-fluid" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Mobile -->
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktop">
+          <div class="col-md-6">
+            <div class="flex-grow-1 text-center">
+              <div class="marketb">
+                <img class="img-fluid" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="flex-grow-1 text-center markettab">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-puzzle-piece"><span id="tabmenu1"></i> Plot</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-home"></i><span id="tabmenu2"> Flats & Houses</span></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-car"></i><span id="tabmenu3"> Cars</span></button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <h3 class="h3-tab1">sit amet consectetur
+                    adipiscing elit</h3>
+                  <p class="p1-tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="p2-tab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <h3 class="h3-tab1">Flats and houses
+                    adipiscing elit</h3>
+                  <p class="p1-tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="p2-tab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <h3 class="h3-tab1">Cars
+                    adipiscing elit</h3>
+                  <p class="p1-tab1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="p2-tab1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <h1>NFT & Market Launch</h1>
+        <hr class="new1">
+        <p style="margin-top: 40px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1 text-center">
-          <div class="market">
-              <h2>Buy and Sell<br /> NLC-NFT's</h2>
-              <p style="margin-top: 40px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <div class="initial">
+              <div class="rowbar"></div>
+              <div class="roundonep">
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p>01.11.2022</p>
+              </div>
+              <div class="roundthreep">
+                <h3>Launch NFT ad-on</h3>
+                <p>01.08.2023</p>
+              </div>
+
+              <div class="roundtwop">
+                <h3>Launch Nova Market</h3>
+                <p>10.01.2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="justify-content-between mb-5 mobile">
+          <div class="col-md-12 mb-5">
+            <div class="flex-grow-1 text-center">
+              <div class="boxmarket"><span class="material-icons md-100">house</span>
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elitsed do eiusmod tempor
+                  incididunt
+                  ut labore et dolore magna aliqua
+                  Ut enim ad minim veniam, quis nostrud
+                  exercitation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-5">
+            <div class="flex-grow-1 text-center">
+              <div class="boxmarket"><span class="material-icons md-100">
+                  store_mall_directory
+                </span>
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elitsed do eiusmod tempor
+                  incididunt
+                  ut labore et dolore magna aliqua
+                  Ut enim ad minim veniam, quis nostrud
+                  exercitation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-5">
+            <div class="flex-grow-1 text-center">
+              <div class="boxmarket"><span class="material-icons md-100">
+                  add_to_queue
+                </span>
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elitsed do eiusmod tempor
+                  incididunt
+                  ut labore et dolore magna aliqua
+                  Ut enim ad minim veniam, quis nostrud
+                  exercitation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktop">
+          <div class="col-md-4">
+            <div class="flex-grow-1 text-center">
+              <div class="boxmarket"><span class="material-icons md-100">house</span>
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elitsed do eiusmod tempor
+                  incididunt
+                  ut labore et dolore magna aliqua
+                  Ut enim ad minim veniam, quis nostrud
+                  exercitation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="flex-grow-1 text-center">
+              <div class="boxmarket"><span class="material-icons md-100">
+                  store_mall_directory
+                </span>
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elitsed do eiusmod tempor
+                  incididunt
+                  ut labore et dolore magna aliqua
+                  Ut enim ad minim veniam, quis nostrud
+                  exercitation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="flex-grow-1 text-center">
+              <div class="boxmarket"><span class="material-icons md-100">
+                  add_to_queue
+                </span>
+                <h3>Presale Plots & Flats/Houses</h3>
+                <p style="margin-left:10px;margin-right:10px">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elitsed do eiusmod tempor
+                  incididunt
+                  ut labore et dolore magna aliqua
+                  Ut enim ad minim veniam, quis nostrud
+                  exercitation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  </section>
+  <hr class="m-0" />
+  <!-- Interests-->
+  <section class="resume-section" id="ncbank">
+    <div class="resume-section-content text-center">
+      <h1>NovaCircle - Bank</h1>
+      <hr class="new1">
+      <p style="margin-top: 20px;margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="col-md-12">
+          <div class="flex-grow-1 text-center">
+            <img class="img-fluid" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 ncbank ncbankdesktop">
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                save_alt
+              </span>
+              <h3>Receive</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                send
+              </span>
+              <h3>Send</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                compare_arrows
+              </span>
+              <h3>Exchange</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                local_grocery_store
+              </span>
+              <h3>Spend</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile -->
+      <div class="d-flex flex-column flex-md-column justify-content-between mb-5 ncbankmobile">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly">
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  save_alt
+                </span>
+                <h3>Receive</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  send
+                </span>
+                <h3>Send</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-evenly">
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  compare_arrows
+                </span>
+                <h3>Exchange</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  local_grocery_store
+                </span>
+                <h3>Spend</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Portrait -->
+      <div class="d-flex flex-column flex-md-column justify-content-between mb-5 ncbankmobileport">
+        <div class="d-flex flex-column flex-md-column justify-content-evenly">
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  save_alt
+                </span>
+                <h3>Receive</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  send
+                </span>
+                <h3>Send</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-column justify-content-evenly">
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  compare_arrows
+                </span>
+                <h3>Exchange</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  local_grocery_store
+                </span>
+                <h3>Spend</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktopasset">
+        <div class="col-md-5">
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa">Store your Crypto and<br /> Fiat in one place</h2>
+              <p class="pheadera">Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 sed do eiusmod tempor incididunt ut labore et dolore magna</p>
               <ul role="list">
-                <div>
+                <div class="float-right">
                   <li>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                   </li>
@@ -487,71 +959,438 @@
               </ul>
             </div>
           </div>
+        </div>
+        <div class="col-md-7">
           <div class="flex-grow-1 text-center">
-            <h2 class="mb-5">Interests</h2>
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="d-flex flex-column flex-md-column justify-content-between mb-5 mobileasset">
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa">Store your Crypto and Fiat in one place</h2>
+              <p class="pheadera">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list">
+                <div class="float-right">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of mobile -->
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktopasset">
+        <div class="col-md-7">
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa left">Exchange your assets<br /> at anytime</h2>
+              <p class="pheadera left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list" style="padding-left:0rem;">
+                <div class="float-left">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+
+      <div class="d-flex flex-column flex-md-column justify-content-between mb-5 mobileasset">
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa left">Exchange your assets<br /> at anytime</h2>
+              <p class="pheadera left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list" style="padding-left:0rem;">
+                <div class="float-left">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
           </div>
         </div>
 
       </div>
 
-    </section>
-    <hr class="m-0" />
-    <!-- Interests-->
-    <section class="resume-section" id="interests">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+      <!-- End of mobile -->
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktopasset">
+        <div class="col-md-5">
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa">Get returns on your<br /> NLC-Coins</h2>
+              <p class="pheadera">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list">
+                <div class="float-right">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Awards-->
-    <section class="resume-section" id="awards">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Awards & Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            Google Analytics Certified Developer
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            Mobile Web Specialist - Google Certification
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            1
-            <sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            1
-            <sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            2
-            <sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            1
-            <sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006
-          </li>
-          <li>
-            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-            3
-            <sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005
-          </li>
-        </ul>
+
+      <!-- Mobile -->
+      <div class="d-flex flex-column flex-md-column justify-content-between mb-5 mobileasset">
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa">Get returns on your<br /> NLC-Coins</h2>
+              <p class="pheadera">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list">
+                <div class="float-right">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+      <!-- End of mobile -->
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 desktopasset">
+        <div class="col-md-7">
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa left">Manage and keep<br /> your NLC-NFT’s</h2>
+              <p class="pheadera left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list" style="padding-left:0rem;">
+                <div class="float-left">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="d-flex flex-column flex-md-column justify-content-between mb-5 mobileasset">
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="market">
+              <h2 class="pmarketa left">Manage and keep<br /> your NLC-NFT’s</h2>
+              <p class="pheadera left">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+              <ul role="list" style="padding-left:0rem;">
+                <div class="float-left">
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                  <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  </li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex-grow-1 text-center">
+            <div class="marketb">
+              <img src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- End of mobile -->
+
+
+
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Awards-->
+  <section class="resume-section" id="nvo">
+    <div class="resume-section-content text-center">
+      <h1>Nova Virtual Office</h1>
+      <hr class="new1">
+      <p class="p-nvo-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br />
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="col-md-12">
+          <div class="flex-grow-1 text-center">
+            <img class="img-fluid" src="<?php echo base_url('/assets/img/blank.jpg'); ?>" alt="">
+          </div>
+        </div>
+      </div>
+      <h1 style="margin-top: 300px;">Virtual Office for Teamwork</h1>
+      <hr class="new1">
+      <p class="p-nvo-3">A revolutionary collaborative experience for remote work</p>
+      <p class="p-nvo-2">We do our best work as part of a team. NVO allows you to create, discuss, and share your work <br />
+        with colleagues. Take your team collaboration to the next level.</p>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="col-md-12">
+          <div class="flex-grow-1 text-center">
+            <img class="img-fluid" src="<?php echo base_url('/assets/img/nvovirtual.png'); ?>" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 nvodesktop">
+        <div class="col-sm-3">
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                view_in_ar
+              </span>
+              <h3>Augmented Reality</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                mic_none
+              </span>
+              <h3>nteractive Voice chat</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                airplay
+              </span>
+              <h3>Share your work</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="flex-grow-1 text-center">
+            <div class="boxcircle"><span class="material-icons md-101">
+                thumbs_up_down
+              </span>
+              <h3>Work efficiency</h3>
+              <p>Lorem ipsum dolor sit amet
+                consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5 nvomobile">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly">
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  view_in_ar
+                </span>
+                <h3>Augmented Reality</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  mic_none
+                </span>
+                <h3>nteractive Voice chat</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-evenly">
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  airplay
+                </span>
+                <h3>Share your work</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex-grow-1 text-center">
+              <div class="boxcircle"><span class="material-icons md-101">
+                  thumbs_up_down
+                </span>
+                <h3>Work efficiency</h3>
+                <p>Lorem ipsum dolor sit amet
+                  consectetur adipiscing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="d-flex flex-column flex-md-row justify-content-between footernyo" id="nvo">
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" style="background-color: #2E3880;">
+      <div class="col-md-2">
+        <div class="flex-grow-1 text-center">
+          <div class="boxfooter first">
+            Legal<br /><a href="http://localhost:8080/home/imprint">Imprint</a><a href="http://localhost:8080/home/toc">Terms & Conditions</a><a href="http://localhost:8080/home/privacy">Privacy policy</a><a href="#">AML/Exchange Policy</a><a href="#">AML/Wallet Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="verticalhr footer"></div>
+      <div class="col-md-2">
+        <div class="flex-grow-1 text-center">
+          <div class="boxfooter second">
+            About<br /><a href="#">Imprint</a><a href="#">Terms & Conditions</a><a href="#">Privacy policy</a><a href="#">AML/Exchange Policy</a><a href="#">AML/Wallet Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="verticalhr footer"></div>
+      <div class="col-md-2">
+        <div class="flex-grow-1 text-center">
+          <div class="boxfooter">
+            Products <br /><a href="#">Exchange</a><a href="#">Wallet</a><a href="#">App</a><a href="#">Card</a><a href="#">Payments</a>
+          </div>
+        </div>
+      </div>
+      <div class="verticalhr footer"></div>
+      <div class="col-md-2">
+        <div class="flex-grow-1 text-center">
+          <div class="boxfooter">
+            Features <br /><a href="#">Pricing</a><a href="#">Personal</a><a href="#">Business</a><a href="#">AdCash</a><a href="#">Blog</a>
+          </div>
+        </div>
+      </div>
+      <div class="verticalhr footer"></div>
+      <div class="col-md-2">
+        <div class="flex-grow-1 text-center">
+          <div class="boxfooter">
+            Social Media <br /><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Youtube</a><a href="#">Medium</a><a href="#">Linkedln</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Surround the select box within a "custom-select" DIV element.
+Remember to set the width: -->
+
   </div>
+
   <!-- Bootstrap core JS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->
