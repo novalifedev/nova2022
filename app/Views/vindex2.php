@@ -49,22 +49,61 @@
           -->
         </div>
       </div>
-      <div class="contenthome">
-        <div class="col-lg-5 text-left" style="height: 400px;padding-top:4%;padding-left:1%; width: 600px;">
-          <h1 class="home1">Lorem ipsum dolor sit
-            Consectetur Adipisicing</h1>
-          <div class="rowhome">
-            <div class="homehr"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="row align-items-md-stretch rowmainhome">
+        <div class="col-md-5">
+          <div class="bghome0">
+            <h1 class="home1">Lorem ipsum dolor sit
+              Consectetur Adipisicing</h1>
+            <div class="rowhome">
+              <div class="homehr"></div>
+              <p style="margin-left: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row row-btn align-items-md-stretch">
+              <button class="button home" style="margin-right:1rem"><span style="font-size: 28px;"><i class="fab fa-windows"></span></i> <span style="vertical-align: super; margin-left:5px;">WINDOWS</span></button>
+              <button class="button home"><span style="font-size: 28px;"><i class="fab fa-apple"></i></span> <span style="vertical-align: super; margin-left:5px;">APPLE</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 w-40">
+          <div class="bghome">
+            <span class="tooltiptext">Dec 31, 2025 00:00:00</span>
+            <h2 class="home1">SALES ROUND XXxxxx</h2><br /><br />
+            <div class="inputdata">
+              <div class="inputbox"><input type="text" id="days">
+                <p>days</p>
+              </div>
+            </div>
+            <div class="inputdata">
+              <div class="inputbox"><input type="text" id="hours">
+                <p>hours</p>
+              </div>
+            </div>
+            <div class="inputdata">
+              <div class="inputbox"><input type="text" id="minutes">
+                <p>minutes</p>
+              </div>
+            </div>
+            <div class="inputdata">
+              <div class="inputbox"><input type="text" id="second">
+                <p>second</p>
+              </div>
+            </div>
+            <h3 style="margin-top:-10%">Current price $XXX <br />
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div><br />
+              <div class="homenote">
+                <div class="minnlcc">XXX NLCC</div>
+                <div class="maxnlcc">XXX NLCC</div>
+              </div>
+            </h3>
+            <div class="buycoin text-center">BUY COIN</div>
+          </div>
 
-          </div>
-          <div class="row row-btn">
-            <button class="button home"><span style="font-size: 28px;"><i class="fab fa-windows"></span></i> <span style="vertical-align: super; margin-left:5px;">WINDOWS</span></button>
-            <button class="button home" style="margin-left:1rem"><span style="font-size: 28px;"><i class="fab fa-apple"></i></span> <span style="vertical-align: super; margin-left:5px;">APPLE</span></button>
-          </div>
         </div>
-        <div class="col-lg-4 text-center">
-        </div>
+      </div>
+      <div class="contenthome">
+
       </div>
       <!-- end of div row partner -->
       <div class="main" id="section1">
@@ -159,40 +198,48 @@
               </div>
               <a href="" class="menu-button"><img src="<?php echo base_url('/assets/img/person.png'); ?>" height="60"></a>
             </nav> -->
-            <div class="popupbox" id="popupbox">           
-            <h2 style="margin-left:20px;margin-top:10px">FINANCE</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupbox">
+              <h2 style="margin-left:20px;margin-top:10px">FINANCE</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupfriends">           
-            <h2 style="margin-left:20px;margin-top:10px">FRIENDS</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupfriends">
+              <h2 style="margin-left:20px;margin-top:10px">FRIENDS</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupcareer">           
-            <h2 style="margin-left:20px;margin-top:10px">CAREER</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupcareer">
+              <h2 style="margin-left:20px;margin-top:10px">CAREER</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class="popupbox" id="popupchat">           
-            <h2 style="margin-left:20px;margin-top:10px">CHAT</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupchat">
+              <h2 style="margin-left:20px;margin-top:10px">CHAT</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupinvest">           
-            <h2 style="margin-left:20px;margin-top:10px">INVESTMENT</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupinvest">
+              <h2 style="margin-left:20px;margin-top:10px">INVESTMENT</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupwww">           
-            <h2 style="margin-left:20px;margin-top:10px">WORLD WIDE</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupwww">
+              <h2 style="margin-left:20px;margin-top:10px">WORLD WIDE</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupsecure">           
-            <h2 style="margin-left:20px;margin-top:10px">SECURE</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupsecure">
+              <h2 style="margin-left:20px;margin-top:10px">SECURE</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="popupbox" id="popupnft">           
-            <h2 style="margin-left:20px;margin-top:10px">NFT</h2> <div class="closepopup" onclick="resetposition()">X</div>
-                    <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
+            <div class="popupbox" id="popupnft">
+              <h2 style="margin-left:20px;margin-top:10px">NFT</h2>
+              <div class="closepopup" onclick="resetposition()">X</div>
+              <p class="pcirclemenu">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exui officia deserunt mollit anim id est laborum.</p>
             </div>
-            
+
             <div class="circlemenu">
               <div class="containermenu" id="containermenu">
                 <div class="planet" id="planet"></div>
@@ -230,7 +277,7 @@
                   <div class="satellite7" id="crossRotate">
                     <h2 class="text7" id="text7">FINANCE</h2>
                     <img src="<?php echo base_url('/assets/img/finance.png'); ?>" height="40" class="imgfinance" id="imgfinance">
-                    <div class="hr7" id="hr7"></div>                    
+                    <div class="hr7" id="hr7"></div>
                   </div>
                   <div class="satellite8" id="crossRotate8">
                     <h2 class="text8" id="text8">INVESTMENT</h2>
@@ -248,7 +295,7 @@
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
 
-            <div class="timeline ">
+            <div class="container-fluid timeline ">
               <div class="outer">
                 <div class="card">
                   <div class="info">
@@ -314,14 +361,14 @@
             <p style="margin-top: 30px;margin-bottom: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br />
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
-            <div class="row" style="position: relative;margin: auto;padding-left: 220px;padding-right: 220px;margin-top: 100px;display:flex">
+            <div class="row partner-row">
               <div class="partner" style="margin-left:40px;margin-right:40px;">
                 <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span>
               </div>
               <div class="partner" style="margin-right:40px"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
               <div class="partner"> <span class="material-icons md-60" style="display: block;">account_balance</span><span class="partner-h3">XXXX</span></div>
             </div>
-            <div class="row" style="position: relative;margin: auto;display: inline-flex;margin-top: 100px;">
+            <div class="row partner-slider">
               <div class="container mt-3">
                 <div class="row justify-content-center">
                   <div class="col-md-6">
@@ -382,10 +429,10 @@
             <hr class="nlccdetails">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br />
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-            <div class="row nlcc">
+            <div class="row nlcc d-flex p-2 flex-row">
               <div class="col-md-4 nlccbox"><img src="<?php echo base_url('/assets/img/equalizer_white_48dp.svg'); ?>" style="width: 71px;
                 height: 71px;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 margin-top: 20px;">
                 <div class="nlccfont">CURRENT SUPPLY</div>
                 <div class="nlccfontlg">XX.XXX.XXX.XX</div>
@@ -480,11 +527,15 @@
                       sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <ul role="list">
                       <div style="margin-left:130px;">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                         <li>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </li>
+                        <li>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </li>
                       </div>
 
                     </ul>
@@ -831,7 +882,7 @@
       </div>
       <!-- end of section 6 -->
     </div>
-    <div class="menuright">
+    <!--     <div class="menuright">
       <div class="bghome">
         <span class="tooltiptext">Dec 31, 2025 00:00:00</span>
         <h2 class="home1">SALES ROUND XX</h2><br /><br />
@@ -866,7 +917,7 @@
         </h3>
         <div class="buycoin text-center">BUY COIN</div>
       </div>
-    </div>
+    </div> -->
     <footer class="footer">
       <div class="box">Legal<br /><a href="http://localhost:8080/home/imprint">Imprint</a><a href="http://localhost:8080/home/toc">Terms & Conditions</a><a href="http://localhost:8080/home/privacy">Privacy policy</a><a href="#">AML/Exchange Policy</a><a href="#">AML/Wallet Policy</a></div>
       <div class="footerhrv"></div>
